@@ -1,0 +1,62 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     survey_formatado_country_virgula-weka.filters.unsupervised.attribute.Remove-R1,3,5,7-8
+Instances:    1250
+Attributes:   24
+              Age_
+              Gender_
+              Continent_
+              self_employed
+              family_history
+              treatment
+              work_interfere
+              no_employees
+              remote_work
+              tech_company
+              benefits
+              care_options
+              wellness_program
+              seek_help
+              anonymity
+              leave
+              mental_health_consequence
+              phys_health_consequence
+              coworkers
+              supervisor
+              mental_health_interview
+              phys_health_interview
+              mental_vs_physical
+              obs_consequence
+Evaluation mode:    10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+average merit      average rank  attribute
+ 0.056 +- 0.005      1   +- 0       23 mental_vs_physical
+ 0.041 +- 0.004      2.1 +- 0.3     16 leave
+ 0.036 +- 0.002      2.9 +- 0.3     17 mental_health_consequence
+ 0.024 +- 0.002      4   +- 0        7 work_interfere
+ 0.018 +- 0.002      5.5 +- 0.67    18 phys_health_consequence
+ 0.017 +- 0.002      6.1 +- 0.83     6 treatment
+ 0.015 +- 0.001      7.1 +- 1.04     3 Continent_
+ 0.014 +- 0.003      8   +- 1.26    14 seek_help
+ 0.014 +- 0.002      8.4 +- 0.8     15 anonymity
+ 0.01  +- 0.001     11.2 +- 1.54     5 family_history
+ 0.009 +- 0.001     11.7 +- 1.68    11 benefits
+ 0.01  +- 0.001     11.8 +- 1.94    20 supervisor
+ 0.008 +- 0.001     13.7 +- 1.42     8 no_employees
+ 0.007 +- 0.001     14.4 +- 1.8     21 mental_health_interview
+ 0.007 +- 0.001     14.7 +- 1.68    13 wellness_program
+ 0.007 +- 0.001     15.1 +- 1.81    12 care_options
+ 0.007 +- 0.001     15.3 +- 1.73     1 Age_
+ 0.004 +- 0.001     19   +- 1        2 Gender_
+ 0.004 +- 0.001     19   +- 1       19 coworkers
+ 0.003 +- 0.001     19.9 +- 0.94    10 tech_company
+ 0.003 +- 0.001     20.1 +- 1.04     4 self_employed
+ 0.001 +- 0         22.3 +- 0.46     9 remote_work
+ 0.001 +- 0.001     22.7 +- 0.46    22 phys_health_interview
+
