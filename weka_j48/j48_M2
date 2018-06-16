@@ -1,0 +1,169 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     survey_formatado_country_virgula-weka.filters.unsupervised.attribute.Remove-R1,3,5,7-8
+Instances:    1250
+Attributes:   24
+              Age_
+              Gender_
+              Continent_
+              self_employed
+              family_history
+              treatment
+              work_interfere
+              no_employees
+              remote_work
+              tech_company
+              benefits
+              care_options
+              wellness_program
+              seek_help
+              anonymity
+              leave
+              mental_health_consequence
+              phys_health_consequence
+              coworkers
+              supervisor
+              mental_health_interview
+              phys_health_interview
+              mental_vs_physical
+              obs_consequence
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+work_interfere = Often: Yes (140.0/21.0)
+work_interfere = NA: No (262.0/4.0)
+work_interfere = Rarely
+|   family_history = No
+|   |   care_options = Not sure
+|   |   |   mental_health_consequence = Yes: No (0.0)
+|   |   |   mental_health_consequence = No
+|   |   |   |   tech_company = Yes
+|   |   |   |   |   leave = Somewhat difficult: Yes (1.0)
+|   |   |   |   |   leave = Somewhat easy: No (2.0)
+|   |   |   |   |   leave = Very easy: Yes (0.0)
+|   |   |   |   |   leave = Don t know: Yes (7.0/2.0)
+|   |   |   |   |   leave = Very difficult: Yes (0.0)
+|   |   |   |   tech_company = No: No (2.0)
+|   |   |   mental_health_consequence = Maybe: No (4.0)
+|   |   care_options = Yes: Yes (43.0/12.0)
+|   |   care_options = No
+|   |   |   mental_health_interview = No
+|   |   |   |   no_employees = 6-25
+|   |   |   |   |   supervisor = Some of them: No (2.0)
+|   |   |   |   |   supervisor = Yes: Yes (1.0)
+|   |   |   |   |   supervisor = No: Yes (4.0)
+|   |   |   |   no_employees = 26-100
+|   |   |   |   |   Age_ = 18|-28: No (2.0)
+|   |   |   |   |   Age_ = 28|-38: Yes (2.0)
+|   |   |   |   |   Age_ = 38|-48: Yes (2.0)
+|   |   |   |   |   Age_ = 48|-58: Yes (0.0)
+|   |   |   |   |   Age_ = 58|-72|: Yes (0.0)
+|   |   |   |   no_employees = 1-5: No (6.0/1.0)
+|   |   |   |   no_employees = 500-1000: No (1.0)
+|   |   |   |   no_employees = 100-500: Yes (2.0)
+|   |   |   |   no_employees = More than 1000: No (7.0/1.0)
+|   |   |   mental_health_interview = Yes: No (1.0)
+|   |   |   mental_health_interview = Maybe: No (3.0)
+|   family_history = Yes
+|   |   benefits = No: Yes (22.0/1.0)
+|   |   benefits = Yes: Yes (45.0/2.0)
+|   |   benefits = Don t know
+|   |   |   mental_health_consequence = Yes: Yes (5.0/1.0)
+|   |   |   mental_health_consequence = No: Yes (4.0)
+|   |   |   mental_health_consequence = Maybe: No (5.0)
+work_interfere = Sometimes
+|   family_history = No
+|   |   Continent_ = Europe
+|   |   |   Age_ = 18|-28: Yes (20.0/3.0)
+|   |   |   Age_ = 28|-38
+|   |   |   |   mental_health_interview = No
+|   |   |   |   |   anonymity = Don t know
+|   |   |   |   |   |   obs_consequence = No
+|   |   |   |   |   |   |   care_options = Not sure: No (4.0/1.0)
+|   |   |   |   |   |   |   care_options = Yes: No (2.0)
+|   |   |   |   |   |   |   care_options = No: Yes (10.0/2.0)
+|   |   |   |   |   |   obs_consequence = Yes: No (5.0)
+|   |   |   |   |   anonymity = Yes: Yes (12.0/2.0)
+|   |   |   |   |   anonymity = No: Yes (2.0)
+|   |   |   |   mental_health_interview = Yes: Yes (1.0)
+|   |   |   |   mental_health_interview = Maybe: No (3.0)
+|   |   |   Age_ = 38|-48: Yes (9.0)
+|   |   |   Age_ = 48|-58: Yes (2.0)
+|   |   |   Age_ = 58|-72|: Yes (0.0)
+|   |   Continent_ = Eurasia: No (1.0)
+|   |   Continent_ = North America
+|   |   |   care_options = Not sure
+|   |   |   |   coworkers = No: No (5.0/1.0)
+|   |   |   |   coworkers = Yes: Yes (3.0)
+|   |   |   |   coworkers = Some of them
+|   |   |   |   |   leave = Somewhat difficult: Yes (6.0)
+|   |   |   |   |   leave = Somewhat easy: Yes (3.0/1.0)
+|   |   |   |   |   leave = Very easy: No (2.0)
+|   |   |   |   |   leave = Don t know
+|   |   |   |   |   |   mental_vs_physical = No: No (1.0)
+|   |   |   |   |   |   mental_vs_physical = Don t know
+|   |   |   |   |   |   |   wellness_program = No: Yes (3.0/1.0)
+|   |   |   |   |   |   |   wellness_program = Don t know: Yes (3.0)
+|   |   |   |   |   |   |   wellness_program = Yes: No (2.0)
+|   |   |   |   |   |   mental_vs_physical = Yes: No (3.0)
+|   |   |   |   |   leave = Very difficult: Yes (1.0)
+|   |   |   care_options = Yes: Yes (58.0/6.0)
+|   |   |   care_options = No
+|   |   |   |   anonymity = Don t know
+|   |   |   |   |   Gender_ = M
+|   |   |   |   |   |   wellness_program = No
+|   |   |   |   |   |   |   phys_health_interview = No: Yes (4.0)
+|   |   |   |   |   |   |   phys_health_interview = Yes: Yes (2.0)
+|   |   |   |   |   |   |   phys_health_interview = Maybe: No (14.0/5.0)
+|   |   |   |   |   |   wellness_program = Don t know: No (3.0)
+|   |   |   |   |   |   wellness_program = Yes: No (1.0)
+|   |   |   |   |   Gender_ = F: Yes (4.0)
+|   |   |   |   |   Gender_ = Outro: Yes (0.0)
+|   |   |   |   anonymity = Yes: Yes (7.0/1.0)
+|   |   |   |   anonymity = No: No (2.0)
+|   |   Continent_ = Australia: No (4.0/1.0)
+|   |   Continent_ = India: No (2.0/1.0)
+|   |   Continent_ = South America: No (1.0)
+|   |   Continent_ = Asia: No (4.0)
+|   |   Continent_ = Africa: Yes (1.0)
+|   |   Continent_ = Oceania: Yes (3.0)
+|   family_history = Yes: Yes (250.0/41.0)
+work_interfere = Never: No (212.0/30.0)
+
+Number of Leaves  : 	72
+
+Size of the tree : 	100
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1032               82.56   %
+Incorrectly Classified Instances       218               17.44   %
+Kappa statistic                          0.6506
+Mean absolute error                      0.2549
+Root mean squared error                  0.3722
+Relative absolute error                 50.9826 %
+Root relative squared error             74.4529 %
+Total Number of Instances             1250     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,738    0,089    0,891      0,738    0,807      0,660    0,846     0,847     No
+                 0,911    0,262    0,780      0,911    0,841      0,660    0,846     0,784     Yes
+Weighted Avg.    0,826    0,176    0,835      0,826    0,824      0,660    0,846     0,815     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 457 162 |   a = No
+  56 575 |   b = Yes
+

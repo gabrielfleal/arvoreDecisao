@@ -1,0 +1,89 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 4
+Relation:     survey_formatado_country_virgula-weka.filters.unsupervised.attribute.Remove-R1,3,5,7-8
+Instances:    1250
+Attributes:   24
+              Age_
+              Gender_
+              Continent_
+              self_employed
+              family_history
+              treatment
+              work_interfere
+              no_employees
+              remote_work
+              tech_company
+              benefits
+              care_options
+              wellness_program
+              seek_help
+              anonymity
+              leave
+              mental_health_consequence
+              phys_health_consequence
+              coworkers
+              supervisor
+              mental_health_interview
+              phys_health_interview
+              mental_vs_physical
+              obs_consequence
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+work_interfere = Often: Yes (140.0/21.0)
+work_interfere = NA: No (262.0/4.0)
+work_interfere = Rarely
+|   family_history = No
+|   |   care_options = Not sure: No (16.0/6.0)
+|   |   care_options = Yes: Yes (43.0/12.0)
+|   |   care_options = No
+|   |   |   Gender_ = M: No (28.0/9.0)
+|   |   |   Gender_ = F: Yes (5.0/1.0)
+|   |   |   Gender_ = Outro: No (0.0)
+|   family_history = Yes
+|   |   benefits = No: Yes (22.0/1.0)
+|   |   benefits = Yes: Yes (45.0/2.0)
+|   |   benefits = Don t know
+|   |   |   mental_health_consequence = Yes: Yes (5.0/1.0)
+|   |   |   mental_health_consequence = No: Yes (4.0)
+|   |   |   mental_health_consequence = Maybe: No (5.0)
+work_interfere = Sometimes: Yes (463.0/107.0)
+work_interfere = Never: No (212.0/30.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	20
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1030               82.4    %
+Incorrectly Classified Instances       220               17.6    %
+Kappa statistic                          0.6474
+Mean absolute error                      0.2577
+Root mean squared error                  0.3686
+Relative absolute error                 51.5486 %
+Root relative squared error             73.7299 %
+Total Number of Instances             1250     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,743    0,097    0,883      0,743    0,807      0,656    0,853     0,864     No
+                 0,903    0,257    0,782      0,903    0,838      0,656    0,853     0,800     Yes
+Weighted Avg.    0,824    0,178    0,832      0,824    0,823      0,656    0,853     0,832     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 460 159 |   a = No
+  61 570 |   b = Yes
+

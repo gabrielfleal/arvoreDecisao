@@ -1,0 +1,1278 @@
+@relation 'survey_formatado_country_virgula-weka.filters.unsupervised.attribute.Remove-R1,3,5,7-8'
+
+@attribute Age_ {18|-28,28|-38,38|-48,48|-58,58|-72|}
+@attribute Gender_ {M,F,Outro}
+@attribute Continent_ {Europe,Eurasia,'North America',Australia,India,'South America',Asia,Africa,Oceania}
+@attribute self_employed {No,Yes,NA}
+@attribute family_history {No,Yes}
+@attribute treatment {No,Yes}
+@attribute work_interfere {Often,NA,Rarely,Sometimes,Never}
+@attribute no_employees {6-25,26-100,1-5,500-1000,100-500,'More than 1000'}
+@attribute remote_work {No,Yes}
+@attribute tech_company {Yes,No}
+@attribute benefits {No,Yes,'Don t know'}
+@attribute care_options {'Not sure',Yes,No}
+@attribute wellness_program {No,'Don t know',Yes}
+@attribute seek_help {No,'Don t know',Yes}
+@attribute anonymity {'Don t know',Yes,No}
+@attribute leave {'Somewhat difficult','Somewhat easy','Very easy','Don t know','Very difficult'}
+@attribute mental_health_consequence {Yes,No,Maybe}
+@attribute phys_health_consequence {Maybe,No,Yes}
+@attribute coworkers {No,Yes,'Some of them'}
+@attribute supervisor {'Some of them',Yes,No}
+@attribute mental_health_interview {No,Yes,Maybe}
+@attribute phys_health_interview {No,Yes,Maybe}
+@attribute mental_vs_physical {No,'Don t know',Yes}
+@attribute obs_consequence {No,Yes}
+
+@data
+18|-28,M,Europe,No,No,No,Often,6-25,No,Yes,No,'Not sure',No,No,'Don t know','Somewhat difficult',Yes,Maybe,No,'Some of them',No,No,No,No
+18|-28,M,Eurasia,No,No,No,NA,26-100,Yes,Yes,Yes,Yes,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Rarely,1-5,Yes,Yes,No,No,No,No,Yes,'Very easy',No,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+18|-28,M,Europe,No,No,No,NA,500-1000,Yes,No,'Don t know',No,No,'Don t know','Don t know','Very easy',Yes,No,No,No,No,Maybe,'Don t know',No
+18|-28,F,Europe,No,Yes,Yes,Sometimes,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,1-5,No,Yes,No,Yes,No,No,No,'Somewhat difficult',Yes,No,No,No,No,Maybe,No,No
+18|-28,M,Europe,No,No,Yes,Sometimes,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Yes,Yes,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',Yes,Yes,No,NA,1-5,Yes,Yes,'Don t know','Not sure',No,Yes,Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,F,'North America',No,Yes,Yes,Often,26-100,No,No,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Maybe,Maybe,No,No,No,Maybe,No,No
+18|-28,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',No,No,'Some of them',Yes,No,Yes,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,Yes,No,No,Yes,'Don t know','Very easy',No,No,Yes,Yes,No,No,Yes,No
+18|-28,M,'North America',No,No,No,Never,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,No,No
+18|-28,M,'North America',No,No,No,Sometimes,1-5,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,Australia,No,No,No,NA,100-500,Yes,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,F,Europe,No,No,No,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,India,No,No,Yes,Sometimes,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Maybe,Yes,No
+18|-28,F,'North America',No,No,Yes,Sometimes,26-100,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+18|-28,M,Eurasia,No,No,No,Rarely,26-100,No,No,No,No,No,No,'Don t know','Very difficult',Yes,Yes,'Some of them',No,No,Maybe,No,No
+18|-28,M,Europe,Yes,No,No,Often,1-5,Yes,No,No,Yes,No,No,Yes,'Very difficult',Yes,No,'Some of them',Yes,No,Maybe,No,No
+18|-28,M,'North America',No,No,Yes,Sometimes,6-25,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat difficult',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,Yes,Often,6-25,No,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Rarely,100-500,No,Yes,Yes,No,No,'Don t know',Yes,'Don t know',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,Yes,Sometimes,6-25,No,No,'Don t know','Not sure',No,No,No,'Very easy',Yes,No,'Some of them',No,No,Maybe,No,No
+18|-28,F,'North America',No,Yes,Yes,Rarely,26-100,No,Yes,'Don t know','Not sure','Don t know',No,'Don t know','Somewhat easy',Yes,No,'Some of them',No,No,Yes,'Don t know',No
+18|-28,M,'North America',No,Yes,No,Never,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+18|-28,M,'North America',No,No,No,Sometimes,6-25,No,No,'Don t know','Not sure',No,Yes,Yes,'Don t know',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure','Don t know',No,'Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,No,NA,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,Outro,Europe,No,No,Yes,Sometimes,26-100,No,Yes,No,Yes,Yes,No,Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,F,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,Rarely,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Very easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,No,No
+18|-28,M,'North America',No,No,Yes,Often,'More than 1000',No,No,No,Yes,No,No,No,'Don t know',Yes,No,'Some of them','Some of them',No,Yes,No,Yes
+18|-28,M,Europe,No,Yes,No,Never,6-25,No,No,No,No,No,No,Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Often,6-25,No,Yes,No,Yes,No,No,Yes,'Very difficult',Maybe,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Sometimes,500-1000,No,Yes,Yes,Yes,No,'Don t know',Yes,'Don t know',Yes,No,No,No,No,Yes,No,No
+18|-28,M,Europe,No,No,No,NA,6-25,Yes,Yes,'Don t know',No,'Don t know',No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,India,No,No,Yes,Never,'More than 1000',No,Yes,'Don t know','Not sure',No,No,'Don t know','Very difficult',Yes,Maybe,No,No,Maybe,Maybe,No,No
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,No,No
+18|-28,M,Australia,Yes,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know','Not sure',Yes,Yes,'Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,Yes,No,Yes
+18|-28,F,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,No,No,'Some of them',No,No,Yes,Yes
+18|-28,M,'North America',No,No,No,Sometimes,'More than 1000',No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,F,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,No,Yes,Yes,Yes,'Somewhat easy',No,No,No,'Some of them',No,No,Yes,No
+18|-28,M,'South America',Yes,No,No,Never,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,Maybe,No,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,'Not sure',Yes,'Don t know',Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,500-1000,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,No,No,Yes
+18|-28,M,Europe,No,Yes,Yes,Sometimes,6-25,Yes,Yes,No,'Not sure',No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+18|-28,M,Europe,Yes,No,No,Never,1-5,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,Maybe,'Some of them',Yes,Maybe,Yes,No,Yes
+18|-28,F,Europe,No,No,No,Often,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,No,'Some of them',No,Yes,'Don t know',No
+18|-28,M,India,Yes,No,No,NA,1-5,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,Yes,Yes
+18|-28,M,India,No,No,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very difficult',Yes,Maybe,'Some of them','Some of them',No,Maybe,No,Yes
+18|-28,F,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Yes,Yes,No,No,No,No,'Don t know',No
+18|-28,M,Australia,No,Yes,Yes,Often,100-500,No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,Maybe,No,Yes,No,Maybe,'Don t know',Yes
+18|-28,M,'North America',NA,No,No,Never,26-100,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,NA,No,Yes,Sometimes,26-100,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',Maybe,No,'Some of them',No,Maybe,Maybe,No,No
+18|-28,F,Australia,No,Yes,Yes,Often,1-5,Yes,Yes,No,'Not sure',No,No,'Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,F,'North America',No,No,No,Rarely,'More than 1000',No,Yes,Yes,Yes,No,No,Yes,'Somewhat difficult',Maybe,No,Yes,Yes,No,No,No,No
+18|-28,M,Europe,No,No,No,Never,26-100,No,Yes,Yes,'Not sure',Yes,'Don t know','Don t know','Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Sometimes,6-25,No,No,No,No,No,No,No,'Somewhat easy',Yes,Yes,No,No,No,No,No,No
+18|-28,M,Europe,Yes,Yes,No,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Very difficult',Yes,No,No,No,No,Maybe,No,No
+18|-28,F,'North America',No,No,No,NA,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,M,Europe,No,Yes,No,NA,1-5,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,No,Yes,No,Yes,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,No,'Don t know',No,No,'Don t know',Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',No,Yes,Yes,No
+18|-28,F,Europe,No,No,Yes,Sometimes,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,Maybe,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Never,100-500,No,No,Yes,No,'Don t know','Don t know',Yes,'Don t know',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,Yes,No,Sometimes,100-500,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,No,No
+18|-28,F,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,100-500,No,No,'Don t know',No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Maybe,Yes,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,No,No
+18|-28,M,India,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,No,No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,No,No,No,'Don t know','Don t know',No,No,Yes,No,No,Yes,'Don t know',No
+18|-28,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+18|-28,M,Europe,Yes,Yes,Yes,Often,26-100,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',No,Maybe,Yes,Yes,Maybe,Yes,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,26-100,No,No,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Yes,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,'Not sure','Don t know',No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,Yes,Yes
+18|-28,F,'North America',No,No,No,NA,'More than 1000',No,No,'Don t know','Not sure','Don t know','Don t know',Yes,'Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,Rarely,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,F,Europe,No,No,No,NA,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Very easy',Maybe,No,No,'Some of them',No,Yes,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Rarely,1-5,No,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,Yes,No
+18|-28,M,'North America',No,No,No,NA,26-100,No,Yes,'Don t know',No,'Don t know',No,'Don t know','Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,Rarely,100-500,No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Yes,Maybe,No,No,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,No,Sometimes,6-25,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+18|-28,F,India,No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,Yes,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Often,26-100,No,No,Yes,Yes,Yes,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,'Don t know','Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,Yes,No,NA,26-100,Yes,Yes,Yes,Yes,No,'Don t know',Yes,'Don t know',Maybe,No,No,'Some of them',No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,100-500,No,No,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+18|-28,F,Europe,No,Yes,No,Never,'More than 1000',No,No,No,No,No,Yes,'Don t know','Somewhat easy',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,No,Sometimes,26-100,No,Yes,Yes,'Not sure',Yes,Yes,Yes,'Somewhat easy',No,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,Asia,No,No,No,NA,100-500,No,Yes,'Don t know','Not sure',No,No,Yes,'Very easy',Maybe,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+18|-28,F,'North America',No,Yes,No,Sometimes,26-100,No,No,No,No,No,No,'Don t know','Somewhat difficult',Yes,No,No,'Some of them',No,Maybe,No,No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Maybe,No,No,No,No,No,'Don t know',No
+18|-28,M,Asia,No,No,No,Never,'More than 1000',No,No,No,Yes,Yes,Yes,Yes,'Somewhat difficult',No,No,Yes,Yes,No,Yes,Yes,No
+18|-28,M,Europe,No,No,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Very difficult',Maybe,No,Yes,Yes,Yes,Yes,No,Yes
+18|-28,M,'North America',No,No,Yes,Sometimes,1-5,No,Yes,No,Yes,No,No,No,'Very easy',Maybe,Maybe,'Some of them',Yes,No,No,No,No
+18|-28,M,Europe,No,No,No,Never,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,Yes,Yes
+18|-28,F,Europe,No,No,Yes,Rarely,26-100,No,Yes,No,Yes,Yes,No,'Don t know','Don t know',No,No,Yes,'Some of them',No,Maybe,'Don t know',No
+18|-28,F,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,No,Yes,No,Yes,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,No,No,Yes,Rarely,6-25,No,Yes,No,Yes,No,No,'Don t know','Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Often,26-100,No,Yes,Yes,Yes,Yes,'Don t know','Don t know','Don t know',Maybe,No,Yes,'Some of them',No,No,'Don t know',No
+18|-28,M,Europe,No,No,Yes,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,Yes,No,Yes
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,Maybe,'Some of them',Yes,Yes,Yes,No,No
+18|-28,M,'North America',No,Yes,No,Rarely,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat easy',Maybe,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Never,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,No,No,No,No,Yes,'Don t know',Maybe,Maybe,No,'Some of them',No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,Rarely,100-500,No,Yes,'Don t know','Not sure',Yes,'Don t know','Don t know','Very easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,No,Sometimes,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,Maybe,Yes,Yes,No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,1-5,No,Yes,'Don t know',No,'Don t know',No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Yes,Yes,No
+18|-28,M,'North America',No,No,No,Never,6-25,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Very easy',Maybe,No,'Some of them',No,Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Sometimes,6-25,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,1-5,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,'Some of them','Some of them',No,Yes,No,No
+18|-28,F,'North America',No,No,No,NA,500-1000,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,Maybe,No,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,Yes,Yes,'Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,26-100,No,Yes,Yes,'Not sure',Yes,Yes,Yes,'Very easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+18|-28,F,'North America',No,Yes,No,NA,500-1000,No,No,No,No,No,No,No,'Very difficult',Yes,Maybe,No,No,No,Maybe,No,Yes
+18|-28,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,No,Yes,No,No,'Don t know','Somewhat difficult',Yes,No,'Some of them','Some of them',No,Maybe,No,Yes
+18|-28,F,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them','Some of them',Yes,Yes,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,No,No,No,No,'Don t know','Very easy',Yes,No,No,'Some of them',No,Yes,Yes,No
+18|-28,M,'North America',No,No,Yes,Rarely,26-100,No,Yes,Yes,Yes,Yes,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,F,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,'Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',Yes
+18|-28,M,Europe,Yes,No,No,Sometimes,1-5,No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Somewhat easy',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,'Not sure',No,No,'Don t know','Somewhat difficult',Yes,Maybe,No,No,No,No,No,Yes
+18|-28,M,'North America',No,No,No,Never,26-100,No,No,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,Yes,'Some of them',No,No,Maybe,No,No
+18|-28,M,Europe,No,Yes,No,Sometimes,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,F,Europe,No,No,Yes,Sometimes,100-500,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,No,No,No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,26-100,No,Yes,No,No,Yes,No,'Don t know','Don t know',Maybe,No,Yes,'Some of them',No,No,'Don t know',No
+18|-28,F,'North America',No,Yes,Yes,Often,6-25,No,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,Yes,No,Yes
+18|-28,M,'North America',No,No,No,NA,6-25,No,Yes,'Don t know','Not sure','Don t know',No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,Sometimes,26-100,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Maybe,No,No
+18|-28,M,Europe,Yes,No,No,NA,1-5,Yes,Yes,No,Yes,No,No,Yes,'Very easy',No,No,No,No,No,Maybe,Yes,No
+18|-28,F,Europe,No,Yes,Yes,Often,6-25,Yes,Yes,No,No,No,No,'Don t know','Very easy',No,No,Yes,Yes,No,No,'Don t know',No
+18|-28,M,Europe,No,Yes,Yes,Often,26-100,No,No,'Don t know',Yes,No,No,No,'Somewhat easy',Yes,Maybe,'Some of them',Yes,No,Maybe,No,Yes
+18|-28,M,Europe,Yes,Yes,No,Often,1-5,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,F,'North America',No,Yes,No,Sometimes,'More than 1000',No,No,Yes,Yes,No,'Don t know','Don t know','Somewhat difficult',Yes,Maybe,'Some of them','Some of them',No,No,No,Yes
+18|-28,M,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,No,Yes,Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Rarely,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Very easy',No,No,Yes,Yes,Maybe,Yes,Yes,No
+18|-28,M,'North America',No,No,No,Sometimes,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,No,No,No,Maybe,'Don t know',Yes
+18|-28,M,Europe,No,No,No,NA,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them',Yes,No,Maybe,'Don t know',No
+18|-28,M,Europe,No,Yes,No,NA,1-5,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,No,'Don t know',No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,Yes,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Maybe,Yes,Yes
+18|-28,M,Europe,Yes,No,Yes,Sometimes,6-25,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+18|-28,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,Yes,Yes,Maybe,Yes,Yes,No
+18|-28,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,No,NA,26-100,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,No,No,'Don t know',No,No,'Don t know','Don t know','Somewhat difficult',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Very easy',Maybe,No,'Some of them',No,No,No,'Don t know',Yes
+18|-28,F,'North America',No,Yes,Yes,Sometimes,500-1000,No,Yes,Yes,No,No,No,'Don t know','Don t know',Yes,Yes,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,Never,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Yes,Maybe,No,No,No,Maybe,No,No
+18|-28,M,Africa,No,No,No,NA,6-25,No,Yes,No,No,No,No,Yes,'Somewhat difficult',Maybe,No,'Some of them',Yes,No,Yes,No,No
+18|-28,M,Australia,No,Yes,Yes,Often,6-25,No,Yes,No,Yes,No,No,No,'Very difficult',Yes,Maybe,No,No,No,Yes,No,Yes
+18|-28,M,'North America',No,No,No,NA,100-500,No,No,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them','Some of them',No,Yes,No,No
+18|-28,M,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Often,6-25,Yes,No,'Don t know',No,No,'Don t know','Don t know','Somewhat difficult',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,Yes,Rarely,6-25,No,Yes,Yes,No,'Don t know',No,'Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure','Don t know',Yes,'Don t know','Don t know',No,No,Yes,Yes,No,No,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them',No,No,No,No,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,Outro,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,F,Europe,No,Yes,No,Sometimes,6-25,No,Yes,Yes,Yes,Yes,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,No,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,Yes,No
+18|-28,M,Europe,No,Yes,Yes,Often,26-100,Yes,Yes,No,No,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,No,Yes,No,No
+18|-28,F,'North America',No,No,Yes,Sometimes,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Yes,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+18|-28,F,'North America',Yes,Yes,Yes,Often,1-5,Yes,Yes,'Don t know','Not sure',No,No,Yes,'Somewhat difficult',Yes,No,'Some of them',No,No,Maybe,No,Yes
+18|-28,M,Europe,No,No,No,Never,'More than 1000',No,No,'Don t know','Not sure','Don t know',Yes,'Don t know','Don t know',No,No,Yes,Yes,No,Yes,'Don t know',No
+18|-28,F,'North America',No,No,No,Sometimes,6-25,No,Yes,No,No,No,No,No,'Somewhat easy',Maybe,No,'Some of them',No,No,No,Yes,No
+18|-28,M,Europe,No,Yes,No,Rarely,26-100,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Yes,No,No,No,No,'Don t know',Yes
+18|-28,F,'North America',No,Yes,No,NA,500-1000,No,No,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+18|-28,M,Africa,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,No,Yes,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,500-1000,No,Yes,Yes,Yes,'Don t know',Yes,Yes,'Somewhat easy',Maybe,Maybe,'Some of them',Yes,Yes,Yes,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Never,6-25,Yes,Yes,'Don t know',No,Yes,'Don t know','Don t know','Don t know',Yes,No,'Some of them',Yes,No,No,No,No
+18|-28,M,'North America',No,No,No,NA,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,No,No,Yes
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,No,NA,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Rarely,26-100,No,No,No,No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,No,No
+18|-28,F,'North America',Yes,No,Yes,Often,1-5,No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',Maybe,Maybe,'Some of them','Some of them',No,No,Yes,Yes
+18|-28,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,No,'Don t know','Don t know',Yes,Yes,No,No,No,No,No,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,100-500,Yes,Yes,Yes,No,No,No,Yes,'Don t know',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,Europe,Yes,No,No,Sometimes,6-25,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,Yes,Yes,Yes,No
+18|-28,M,Europe,No,No,No,Never,6-25,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Often,6-25,Yes,Yes,Yes,Yes,No,'Don t know',Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,Rarely,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Yes,No,'Some of them','Some of them',No,Yes,'Don t know',Yes
+18|-28,F,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',Maybe,No,'Some of them',Yes,Maybe,No,Yes,No
+18|-28,M,'North America',No,No,Yes,Often,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,Africa,No,Yes,Yes,Often,6-25,No,No,'Don t know',No,No,No,Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,No,Yes
+18|-28,M,'North America',No,No,No,Never,'More than 1000',No,No,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Often,1-5,No,Yes,No,Yes,No,No,Yes,'Very easy',Maybe,No,Yes,Yes,No,Maybe,No,No
+18|-28,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,'Don t know',Yes,'Don t know',Yes,No,No,No,No,No,Yes,No
+18|-28,M,'North America',No,No,Yes,Rarely,6-25,Yes,Yes,No,Yes,No,'Don t know','Don t know','Somewhat easy',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,1-5,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,Maybe,Yes,'Don t know',No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,26-100,Yes,Yes,No,No,No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,F,Europe,No,No,Yes,Sometimes,26-100,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,Yes,'Some of them',Maybe,No,No,No
+18|-28,M,Europe,No,No,No,NA,100-500,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know',Yes,No,No,'Don t know','Somewhat easy',Yes,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,26-100,No,No,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',Yes,No,No,Sometimes,1-5,No,Yes,No,Yes,Yes,No,'Don t know','Don t know',No,No,Yes,Yes,No,No,Yes,No
+18|-28,M,'North America',No,No,No,NA,26-100,No,No,No,No,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+18|-28,F,Europe,No,No,Yes,Sometimes,26-100,Yes,Yes,'Don t know','Not sure',Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,Maybe,Yes,Yes,No
+18|-28,M,Europe,No,No,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Very easy',Yes,No,No,No,No,No,No,Yes
+18|-28,F,'North America',No,Yes,Yes,Sometimes,26-100,No,No,No,Yes,No,No,No,'Very difficult',Yes,No,No,No,No,Maybe,No,Yes
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Very easy',No,No,'Some of them','Some of them',No,No,'Don t know',Yes
+18|-28,M,'North America',No,No,No,Often,26-100,No,No,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,Maybe,'Some of them',Yes,No,Maybe,No,No
+18|-28,M,'North America',No,Yes,No,Rarely,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Somewhat easy',No,No,Yes,Yes,No,No,'Don t know',No
+18|-28,F,India,Yes,No,No,Sometimes,6-25,No,No,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,6-25,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat easy',No,No,'Some of them',No,No,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Rarely,'More than 1000',No,Yes,Yes,No,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,No,No
+18|-28,M,Europe,No,No,No,NA,100-500,No,Yes,No,No,No,No,No,'Very easy',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+18|-28,M,Europe,Yes,No,Yes,Often,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,Europe,Yes,No,Yes,Sometimes,1-5,No,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Rarely,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,F,'North America',No,Yes,Yes,Rarely,'More than 1000',Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,Rarely,100-500,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Often,6-25,No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',Yes
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Yes,No,No,No,No,No,No,No
+18|-28,M,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,'Not sure','Don t know',Yes,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',Yes,Yes,Yes,Rarely,100-500,Yes,No,No,No,No,'Don t know',No,'Don t know',Maybe,No,'Some of them',Yes,No,Yes,No,No
+18|-28,F,'North America',No,Yes,Yes,Never,'More than 1000',No,Yes,Yes,Yes,No,Yes,Yes,'Don t know',Maybe,No,No,No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Yes,Yes,'Some of them',No,No,No,No,No
+18|-28,M,'North America',No,Yes,Yes,Often,26-100,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,No,No,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Often,6-25,No,Yes,Yes,Yes,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them',Yes,No,No,No,No
+18|-28,M,'North America',No,Yes,No,NA,6-25,No,Yes,Yes,Yes,No,Yes,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,No,No
+18|-28,F,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Somewhat difficult',No,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,M,'South America',No,No,No,NA,26-100,Yes,Yes,'Don t know',No,'Don t know',No,'Don t know','Don t know',No,No,'Some of them',No,No,Yes,'Don t know',No
+18|-28,F,'North America',No,No,No,NA,'More than 1000',No,No,Yes,'Not sure',Yes,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',Yes
+18|-28,M,Europe,No,Yes,No,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,Maybe,No,No
+18|-28,F,'North America',No,No,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them','Some of them',No,No,No,Yes
+18|-28,F,'North America',No,Yes,No,Never,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Maybe,Maybe,'Some of them',No,No,Maybe,No,No
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,Maybe,Maybe,No,No
+18|-28,M,Asia,No,No,No,Sometimes,6-25,No,Yes,No,No,No,No,Yes,'Very easy',Maybe,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Never,'More than 1000',No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,No,No,No
+18|-28,F,'North America',No,Yes,Yes,Often,100-500,No,No,'Don t know',No,No,No,'Don t know','Somewhat difficult',Maybe,No,No,No,No,Maybe,No,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,Yes,'Somewhat difficult',No,No,Yes,Yes,No,No,No,Yes
+18|-28,F,Australia,No,Yes,No,Sometimes,100-500,No,No,No,Yes,Yes,Yes,'Don t know','Somewhat easy',No,No,Yes,Yes,No,No,'Don t know',No
+18|-28,M,Europe,Yes,No,No,Never,1-5,Yes,Yes,No,No,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,No,No,No,Never,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,No,'Don t know',No
+18|-28,M,Eurasia,No,No,No,Never,26-100,No,Yes,No,'Not sure',No,'Don t know','Don t know','Somewhat difficult',No,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,NA,100-500,Yes,Yes,Yes,'Not sure','Don t know',Yes,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,F,Asia,No,Yes,No,Never,100-500,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,Yes,No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,Yes,'Some of them',No,No,No,No,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,No,Yes,'Don t know','Don t know','Somewhat difficult',Yes,Maybe,No,No,No,Maybe,No,No
+18|-28,Outro,Europe,Yes,No,Yes,Sometimes,6-25,Yes,Yes,No,'Not sure',Yes,Yes,Yes,'Very easy',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Sometimes,6-25,Yes,Yes,No,No,No,No,'Don t know','Very difficult',Yes,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',No
+18|-28,M,Europe,Yes,No,Yes,Rarely,1-5,Yes,Yes,No,'Not sure','Don t know','Don t know','Don t know','Somewhat difficult',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,India,Yes,No,No,NA,100-500,No,Yes,No,No,No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure',No,Yes,Yes,'Very difficult',Maybe,No,'Some of them','Some of them',Yes,Yes,No,Yes
+18|-28,M,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,Maybe,No,No
+18|-28,F,Europe,Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,'Don t know','Very easy',Maybe,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,M,Europe,No,No,No,NA,500-1000,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,Yes,No,No,No,No,'Somewhat easy',Maybe,No,No,No,No,No,'Don t know',No
+18|-28,F,'North America',No,No,Yes,Sometimes,26-100,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,Maybe,Maybe,'Don t know',Yes
+18|-28,F,'North America',No,No,No,NA,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,No,Maybe,Yes,No
+18|-28,M,'North America',No,Yes,No,NA,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,Yes,No
+18|-28,M,Australia,No,Yes,Yes,Sometimes,26-100,Yes,Yes,No,No,No,No,Yes,'Don t know',No,No,Yes,Yes,No,Maybe,Yes,No
+18|-28,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,'Not sure',No,No,Yes,'Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,No,Yes
+18|-28,M,'North America',No,No,No,Never,'More than 1000',No,No,Yes,Yes,No,'Don t know','Don t know','Somewhat difficult',Maybe,No,No,Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,No,Sometimes,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,Australia,No,Yes,Yes,Rarely,26-100,No,Yes,No,No,'Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,Maybe,Yes,Yes,No
+18|-28,M,Europe,Yes,Yes,Yes,Often,1-5,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,Maybe,Yes,No,Yes
+18|-28,M,Europe,No,No,Yes,Often,26-100,No,Yes,No,Yes,No,No,Yes,'Very difficult',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+18|-28,F,'North America',No,Yes,No,Sometimes,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+18|-28,M,'South America',No,No,No,Often,6-25,No,Yes,No,No,No,No,No,'Very difficult',Yes,No,No,No,No,Maybe,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Rarely,100-500,No,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,Maybe,No,No
+18|-28,M,Europe,No,No,Yes,NA,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,'North America',NA,No,No,Never,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Somewhat easy',No,No,'Some of them','Some of them',Maybe,Yes,Yes,No
+18|-28,M,'North America',No,No,Yes,Rarely,6-25,No,Yes,No,Yes,No,No,'Don t know','Very easy',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,1-5,No,Yes,No,Yes,No,No,Yes,'Very difficult',Maybe,No,'Some of them',No,No,No,Yes,No
+18|-28,M,'North America',No,Yes,Yes,Rarely,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,No,No,No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,Never,100-500,No,Yes,Yes,'Not sure',No,Yes,'Don t know','Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,F,'North America',Yes,No,Yes,Often,1-5,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',Maybe,Maybe,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Rarely,6-25,No,No,Yes,Yes,Yes,Yes,Yes,'Very easy',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Never,100-500,No,No,Yes,'Not sure',No,No,'Don t know','Very difficult',Maybe,No,'Some of them',Yes,No,Maybe,No,Yes
+18|-28,M,'North America',No,Yes,No,Never,500-1000,No,Yes,Yes,No,Yes,Yes,Yes,'Don t know',Yes,No,'Some of them',No,No,Yes,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,No,'Some of them',No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Rarely,26-100,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them',Yes,No,No,'Don t know',Yes
+18|-28,F,Europe,Yes,Yes,No,NA,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,No,Maybe,Yes,No
+18|-28,M,'North America',No,Yes,No,NA,6-25,Yes,Yes,Yes,Yes,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,No,No,No,'Don t know','Very easy',No,No,'Some of them','Some of them',No,No,Yes,No
+18|-28,F,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,'Don t know','Don t know','Don t know','Very difficult',No,No,'Some of them',No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,'More than 1000',Yes,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,No,No,No,NA,100-500,No,No,'Don t know','Not sure','Don t know','Don t know',No,'Very easy',Maybe,Maybe,Yes,Yes,No,No,'Don t know',No
+18|-28,F,'North America',No,No,Yes,Rarely,6-25,No,Yes,Yes,No,No,No,Yes,'Don t know',Maybe,Maybe,Yes,No,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,No,Sometimes,6-25,Yes,Yes,No,Yes,No,No,No,'Very difficult',Yes,Yes,'Some of them','Some of them',No,Maybe,No,No
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,No,No,No,No,Yes,'Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,No,No,No,No,Yes,'Somewhat easy',Maybe,Maybe,Yes,Yes,Yes,Yes,Yes,No
+18|-28,M,'North America',No,No,No,Sometimes,100-500,No,Yes,Yes,'Not sure',Yes,Yes,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+18|-28,M,'North America',No,Yes,No,NA,'More than 1000',No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,'North America',No,No,No,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',Yes,No,No,No,No,Maybe,No,No
+18|-28,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,No,No,No,Yes,Yes,No
+18|-28,F,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,No,No,Yes,'Don t know',Yes,Maybe,No,No,No,No,No,No
+18|-28,M,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,No,Yes,Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,F,'North America',No,Yes,Yes,Rarely,'More than 1000',Yes,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,Maybe,No,Yes,No,No,'Don t know',No
+18|-28,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Yes,No,No,No,No,Yes,'Don t know',No
+18|-28,M,'South America',No,No,No,Rarely,6-25,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know',No,Yes,'Don t know','Don t know','Somewhat easy',Yes,No,'Some of them',Yes,No,Maybe,Yes,No
+18|-28,M,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,No,'Not sure',No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them',No,No,No,No,Yes
+18|-28,M,Asia,No,No,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Yes,No,'Some of them',No,No,Maybe,No,Yes
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,Yes,'Don t know',No
+18|-28,F,Europe,Yes,Yes,No,Sometimes,1-5,Yes,Yes,No,No,No,No,No,'Very difficult',Yes,Maybe,No,No,No,Maybe,No,No
+18|-28,F,Australia,No,Yes,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,No,'Somewhat difficult',Yes,No,'Some of them','Some of them',No,No,No,No
+18|-28,M,Europe,No,No,No,Never,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+18|-28,F,Oceania,No,Yes,Yes,Rarely,100-500,Yes,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Yes,'Don t know',No
+18|-28,M,'North America',No,Yes,Yes,Sometimes,100-500,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',No,No,No,Yes,No
+18|-28,F,'North America',No,No,No,Sometimes,500-1000,No,Yes,'Don t know','Not sure','Don t know',Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,Yes,No
+18|-28,M,Asia,No,No,No,Sometimes,1-5,Yes,Yes,No,No,No,No,Yes,'Don t know',Yes,No,'Some of them',Yes,No,No,No,No
+18|-28,M,Australia,No,No,Yes,Often,100-500,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,No,Yes
+18|-28,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know',Yes,'Don t know',Maybe,Maybe,No,No,No,Maybe,No,No
+18|-28,M,'North America',No,No,No,NA,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,Yes,Yes,No,Maybe,Yes,No
+18|-28,M,Australia,No,No,No,Never,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+18|-28,M,Europe,No,No,No,Never,1-5,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+18|-28,F,Europe,No,No,Yes,Sometimes,6-25,Yes,Yes,'Don t know','Not sure',Yes,'Don t know',Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,No,No,Yes,No
+18|-28,M,'North America',No,No,No,NA,26-100,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,No,No,'Don t know',No
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,Yes,Yes,'Don t know',Maybe,No,Yes,'Some of them',No,Yes,Yes,No
+18|-28,F,'North America',No,No,Yes,Sometimes,100-500,No,Yes,'Don t know','Not sure',Yes,'Don t know','Don t know','Somewhat easy',Yes,No,'Some of them',No,No,Maybe,No,No
+18|-28,M,Europe,No,No,No,Never,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',No,Yes,Yes,'Don t know',No
+18|-28,F,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure',No,Yes,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+18|-28,M,Europe,No,Yes,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Yes,No,No
+18|-28,M,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,No,Yes,No,NA,500-1000,No,No,Yes,Yes,'Don t know',No,Yes,'Somewhat easy',Maybe,Maybe,No,'Some of them',No,Maybe,'Don t know',Yes
+18|-28,M,'North America',No,No,No,Never,26-100,No,Yes,Yes,'Not sure',Yes,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+18|-28,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,No,No,No,No,'Don t know',No
+18|-28,M,'North America',No,No,No,Never,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+18|-28,M,'North America',No,No,Yes,Sometimes,100-500,No,Yes,'Don t know','Not sure',No,No,Yes,'Very difficult',Maybe,No,'Some of them',No,No,Maybe,No,No
+18|-28,F,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very difficult',Maybe,No,Yes,'Some of them',No,Maybe,No,Yes
+18|-28,M,Oceania,No,No,No,Rarely,26-100,No,Yes,No,Yes,No,Yes,No,'Somewhat difficult',Yes,No,No,No,No,Maybe,No,Yes
+18|-28,M,Oceania,No,No,No,Rarely,26-100,No,Yes,No,Yes,No,Yes,No,'Somewhat difficult',Yes,No,No,No,No,Maybe,No,Yes
+18|-28,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,No,No,No,No,Yes,'Somewhat easy',Maybe,No,Yes,Yes,Maybe,Maybe,No,No
+18|-28,F,Europe,No,Yes,No,NA,'More than 1000',No,No,No,Yes,No,No,Yes,'Don t know',Maybe,No,No,No,No,Yes,Yes,No
+18|-28,F,'North America',No,No,No,Never,100-500,No,No,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,Yes,No
+18|-28,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Yes,Yes,'Don t know',No
+18|-28,M,Europe,No,No,No,Rarely,'More than 1000',Yes,No,'Don t know','Not sure',No,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,Maybe,'Some of them',Yes,Maybe,Yes,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,100-500,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,6-25,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,'Some of them','Some of them',Maybe,Yes,Yes,No
+28|-38,M,'South America',No,Yes,Yes,Rarely,6-25,No,Yes,No,No,No,No,No,'Don t know',Maybe,No,Yes,Yes,No,No,'Don t know',Yes
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,6-25,No,Yes,'Don t know',No,No,No,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Rarely,6-25,Yes,Yes,No,No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Maybe,Yes,Yes,No
+28|-38,M,Europe,No,No,No,NA,100-500,No,No,No,'Not sure',No,Yes,Yes,'Somewhat easy',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+28|-38,F,Europe,No,No,No,Never,26-100,No,Yes,'Don t know',No,No,'Don t know',Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them',No,No,Maybe,No,No
+28|-38,M,Eurasia,No,No,No,Sometimes,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Rarely,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,No,Yes,No,No,Yes,'Very difficult',Yes,No,No,'Some of them',No,No,No,No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,6-25,No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,No,No,Yes
+28|-38,M,'North America',No,Yes,No,NA,100-500,No,Yes,Yes,No,No,'Don t know',Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,Yes,Yes
+28|-38,M,'South America',No,No,No,Sometimes,6-25,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,Maybe,No,'Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Rarely,100-500,No,No,Yes,Yes,Yes,'Don t know','Don t know','Very easy',Maybe,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Often,100-500,Yes,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Yes,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat difficult',Maybe,Maybe,No,No,No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,Europe,No,Yes,Yes,Rarely,1-5,Yes,Yes,Yes,No,No,No,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,Oceania,No,Yes,Yes,Sometimes,6-25,Yes,Yes,Yes,Yes,Yes,No,'Don t know','Very easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+28|-38,F,'North America',No,No,Yes,Rarely,'More than 1000',No,No,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',Yes,No,No,Never,100-500,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,Never,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,6-25,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,Yes,No,No,No,No,No,'Very difficult',Yes,Maybe,No,'Some of them',No,Maybe,No,No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Often,100-500,Yes,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Yes,Yes,'Some of them','Some of them',No,No,No,Yes
+28|-38,Outro,Europe,No,Yes,Yes,Rarely,100-500,No,Yes,No,'Not sure',No,No,Yes,'Somewhat difficult',Yes,Yes,'Some of them','Some of them',Yes,No,No,Yes
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,No,Yes,'Somewhat difficult',Maybe,No,'Some of them',No,No,Maybe,No,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,500-1000,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Somewhat difficult',Maybe,No,No,'Some of them',No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Yes,No,'Some of them','Some of them',No,No,'Don t know',Yes
+28|-38,M,Europe,No,No,No,Never,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',Yes,Yes,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,Yes,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,6-25,No,Yes,Yes,'Not sure',No,'Don t know',Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Never,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,'More than 1000',No,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',Yes,Yes,No,No
+28|-38,M,'South America',No,No,No,NA,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,Maybe,Yes,No,Yes
+28|-38,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,No,Yes,No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them','Some of them',No,No,No,Yes
+28|-38,M,'North America',No,No,Yes,Never,6-25,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Sometimes,6-25,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,No,Yes,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,Europe,No,Yes,Yes,Often,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,Yes,Yes,No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Often,100-500,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,M,Europe,No,No,No,Often,6-25,No,Yes,No,No,No,No,No,'Somewhat difficult',Yes,No,No,No,No,Yes,Yes,No
+28|-38,M,Europe,Yes,No,No,NA,1-5,Yes,Yes,No,Yes,No,No,Yes,'Very easy',Maybe,Maybe,No,No,No,No,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Yes,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'South America',No,Yes,No,Sometimes,100-500,No,Yes,No,No,No,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,'Don t know',Yes
+28|-38,F,'North America',No,No,Yes,Rarely,6-25,No,Yes,Yes,Yes,'Don t know',Yes,Yes,'Very easy',No,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,No,No,No,Yes,'Somewhat easy',Maybe,No,No,No,No,Yes,No,No
+28|-38,M,Europe,No,No,No,Sometimes,'More than 1000',No,No,No,No,No,No,'Don t know','Somewhat easy',Yes,Maybe,No,No,No,No,'Don t know',Yes
+28|-38,F,'North America',No,No,Yes,Often,6-25,No,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Australia,No,No,Yes,Often,100-500,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',Yes,No,No,No,No,Maybe,No,No
+28|-38,F,'North America',No,No,Yes,Rarely,6-25,No,Yes,Yes,No,No,No,'Don t know','Somewhat easy',Yes,Yes,'Some of them',No,No,No,No,Yes
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,'Not sure',No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,'Not sure',No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Sometimes,26-100,No,Yes,No,Yes,No,No,Yes,'Don t know',Yes,Maybe,No,No,No,No,No,Yes
+28|-38,M,'North America',No,Yes,Yes,Often,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Yes,Maybe,'Some of them',Yes,No,No,No,Yes
+28|-38,M,Europe,No,No,Yes,Rarely,26-100,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,NA,No,No,Never,100-500,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+28|-38,F,'North America',NA,Yes,Yes,Rarely,26-100,No,Yes,Yes,'Not sure',No,No,'Don t know','Somewhat easy',No,No,Yes,'Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,No,'Somewhat difficult',Maybe,No,'Some of them','Some of them',No,No,No,No
+28|-38,M,'North America',No,No,No,Rarely,1-5,No,Yes,No,No,No,No,'Don t know','Very easy',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,No,Yes
+28|-38,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,No,No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,'Not sure',Yes,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',Yes,Yes,No,No,No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,100-500,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,'South America',No,No,No,Never,6-25,Yes,Yes,No,No,No,No,No,'Don t know',Maybe,Maybe,No,Yes,Maybe,Yes,No,No
+28|-38,F,'North America',No,No,Yes,Never,500-1000,No,No,Yes,No,No,'Don t know','Don t know','Somewhat difficult',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,6-25,No,No,No,No,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Yes,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,500-1000,Yes,No,Yes,Yes,Yes,'Don t know',Yes,'Don t know',Maybe,No,'Some of them',No,Maybe,Yes,'Don t know',No
+28|-38,M,'North America',No,No,No,Often,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Rarely,6-25,No,Yes,No,Yes,No,No,Yes,'Very difficult',Maybe,No,'Some of them','Some of them',No,Yes,No,No
+28|-38,M,'North America',No,No,No,NA,100-500,No,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Yes,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,Europe,No,No,No,NA,6-25,Yes,No,No,Yes,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,No,No
+28|-38,F,'North America',Yes,No,No,Sometimes,'More than 1000',No,Yes,Yes,'Not sure','Don t know',No,'Don t know','Very easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Often,6-25,No,No,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',Yes,No,No,NA,1-5,Yes,Yes,No,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,Outro,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,Yes,Yes,No,No,'Don t know','Very difficult',Yes,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,No,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,No,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Very easy',Maybe,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Rarely,1-5,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,Sometimes,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Very difficult',Yes,No,No,No,No,Maybe,No,No
+28|-38,M,'North America',No,No,Yes,Rarely,6-25,No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,Yes,Yes,'Very easy',No,No,No,'Some of them',No,No,Yes,No
+28|-38,F,'North America',No,No,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',Yes,No,No,Never,26-100,Yes,Yes,Yes,Yes,No,No,Yes,'Very difficult',Yes,No,'Some of them',No,No,Yes,No,No
+28|-38,M,'North America',No,No,Yes,Never,'More than 1000',No,No,Yes,'Not sure',Yes,Yes,Yes,'Somewhat difficult',Maybe,No,'Some of them',No,No,Maybe,'Don t know',Yes
+28|-38,F,'North America',No,No,No,Never,26-100,No,Yes,Yes,Yes,Yes,No,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know',No,No,No,No,'Somewhat difficult',Yes,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Never,100-500,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,No,Often,100-500,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Rarely,'More than 1000',No,Yes,Yes,No,No,No,'Don t know','Very easy',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,F,Australia,No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,No,'Somewhat difficult',Yes,No,'Some of them','Some of them',No,No,No,Yes
+28|-38,M,Europe,No,Yes,Yes,Never,100-500,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,No,No,No,No,No,No
+28|-38,M,Europe,No,No,No,Rarely,1-5,No,Yes,No,No,No,No,No,'Somewhat difficult',No,Maybe,'Some of them',No,No,No,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Yes,No,No,No,No,No,'Don t know',No
+28|-38,M,Europe,Yes,No,No,NA,1-5,No,Yes,No,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+28|-38,F,'North America',No,No,Yes,Rarely,'More than 1000',Yes,No,Yes,Yes,Yes,'Don t know',Yes,'Somewhat easy',No,No,No,Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,1-5,Yes,Yes,No,No,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,6-25,No,Yes,No,No,No,'Don t know','Don t know','Somewhat difficult',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Often,26-100,No,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,Never,6-25,No,Yes,Yes,Yes,No,Yes,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,No,No,No
+28|-38,M,Europe,No,Yes,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat difficult',Maybe,Maybe,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,No,No,No,No
+28|-38,M,'North America',No,No,No,NA,6-25,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Very easy',No,No,Yes,Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,26-100,Yes,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Rarely,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,No,No,Never,100-500,No,No,Yes,Yes,Yes,No,Yes,'Very easy',Yes,Maybe,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,100-500,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',No,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,F,Europe,No,No,Yes,Rarely,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Sometimes,'More than 1000',Yes,No,Yes,Yes,No,Yes,Yes,'Very easy',Maybe,No,'Some of them',No,No,No,Yes,No
+28|-38,M,Europe,No,No,Yes,Rarely,6-25,No,Yes,No,Yes,No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,100-500,No,Yes,Yes,'Not sure','Don t know',No,'Don t know','Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,Yes,No,NA,100-500,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,'More than 1000',No,Yes,Yes,No,Yes,No,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,6-25,Yes,Yes,No,No,No,No,'Don t know','Very easy',No,No,Yes,Yes,No,Yes,Yes,No
+28|-38,F,Europe,No,No,Yes,Often,'More than 1000',No,No,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Yes,No,Yes
+28|-38,F,'North America',No,No,Yes,Often,'More than 1000',Yes,No,Yes,No,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Often,1-5,No,Yes,'Don t know','Not sure','Don t know',Yes,'Don t know','Very difficult',No,Maybe,Yes,Yes,Maybe,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,'Don t know','Not sure',Yes,'Don t know',Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,6-25,Yes,Yes,Yes,'Not sure',No,Yes,'Don t know','Don t know',Maybe,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Often,6-25,No,Yes,Yes,No,No,No,Yes,'Somewhat easy',Maybe,Maybe,Yes,'Some of them',No,Yes,No,No
+28|-38,M,Europe,No,No,No,Rarely,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,No,No,No,Yes,'Don t know',Yes
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Yes,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,No,Yes,Yes,Yes,Yes,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,Maybe,Yes,No,No
+28|-38,M,'North America',No,No,No,Never,26-100,No,Yes,No,No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Yes,No,Yes
+28|-38,M,Asia,No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Maybe,No,No,No,No,Maybe,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,100-500,Yes,Yes,Yes,Yes,Yes,No,Yes,'Don t know',Yes,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,500-1000,Yes,Yes,'Don t know',No,No,No,Yes,'Somewhat easy',Maybe,No,'Some of them',Yes,No,Yes,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Rarely,26-100,No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,26-100,No,No,No,No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,No,No
+28|-38,M,'North America',No,No,Yes,Often,1-5,No,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,F,'North America',No,Yes,No,NA,'More than 1000',Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Rarely,100-500,No,Yes,No,Yes,Yes,Yes,'Don t know','Somewhat easy',Yes,No,'Some of them',No,No,No,No,Yes
+28|-38,M,'North America',No,No,Yes,Often,26-100,No,Yes,No,Yes,No,No,Yes,'Somewhat easy',Maybe,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,No,Yes,Often,6-25,Yes,Yes,Yes,Yes,No,No,Yes,'Very difficult',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know',No,'Don t know','Don t know',Yes,'Somewhat easy',No,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,Yes,Yes,No,Yes,Yes,'Don t know',No,No,Yes,Yes,Maybe,No,Yes,No
+28|-38,M,Europe,Yes,No,No,Sometimes,1-5,Yes,Yes,No,No,No,No,'Don t know','Somewhat difficult',No,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,Europe,Yes,No,No,Never,1-5,No,Yes,No,No,No,No,No,'Somewhat easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,Yes,'Don t know','Don t know','Very easy',No,No,Yes,Yes,No,Yes,Yes,No
+28|-38,Outro,'North America',No,Yes,Yes,Rarely,26-100,No,Yes,Yes,'Not sure',No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,6-25,No,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,No,'Some of them',No,No,'Don t know',No
+28|-38,M,'North America',Yes,No,No,Never,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,26-100,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,6-25,No,Yes,No,No,No,'Don t know','Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,F,Europe,No,Yes,No,NA,500-1000,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Often,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,Europe,No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',No,No,Yes,Yes,Maybe,Maybe,No,No
+28|-38,M,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,Yes,Yes,No,'Don t know','Very difficult',Yes,No,'Some of them',No,No,No,No,Yes
+28|-38,F,'North America',No,No,No,NA,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',Yes,Yes,Yes,Often,1-5,Yes,Yes,No,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,Rarely,100-500,No,No,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,26-100,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Often,26-100,No,Yes,No,No,'Don t know',No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',Maybe,Yes,'Don t know',No
+28|-38,F,'North America',Yes,Yes,Yes,Often,1-5,Yes,No,No,Yes,No,Yes,Yes,'Somewhat difficult',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,Asia,No,No,No,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Yes,No,Yes
+28|-38,M,'North America',Yes,No,Yes,Often,6-25,Yes,Yes,No,'Not sure',No,Yes,'Don t know','Somewhat difficult',No,No,Yes,Yes,No,Maybe,Yes,No
+28|-38,M,Europe,No,No,Yes,Often,26-100,No,Yes,No,No,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,Australia,No,No,No,Sometimes,26-100,No,Yes,No,No,No,No,'Don t know','Very easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,'Don t know',Yes,'Don t know',Maybe,No,'Some of them',Yes,No,Yes,Yes,No
+28|-38,M,Europe,No,No,No,Sometimes,'More than 1000',No,No,'Don t know',No,No,No,Yes,'Very easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,26-100,Yes,Yes,No,No,'Don t know',No,'Don t know','Very difficult',Maybe,Maybe,'Some of them',No,No,No,No,No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know',No,No,'Don t know',Yes,'Somewhat easy',No,No,'Some of them',No,Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,100-500,No,No,Yes,No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Never,100-500,No,Yes,'Don t know',No,No,'Don t know','Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,'Don t know',No,No,No,No,'Very difficult',Yes,No,'Some of them',No,No,Yes,No,Yes
+28|-38,M,Europe,No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know',No,No,No,No,'Very difficult',Yes,Yes,No,No,No,No,No,No
+28|-38,M,'North America',Yes,No,Yes,Sometimes,26-100,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',No,No,No,Yes,No
+28|-38,M,'North America',Yes,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Very difficult',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,26-100,Yes,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,No,Never,100-500,No,Yes,Yes,No,'Don t know',Yes,'Don t know','Very difficult',Yes,Yes,'Some of them',No,Maybe,Maybe,No,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,Yes,No,Yes,Yes,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them',No,No,Maybe,No,No
+28|-38,M,'North America',Yes,No,No,Never,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Never,'More than 1000',No,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,No,No,No
+28|-38,M,Europe,Yes,No,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,No,'Very difficult',Yes,Yes,No,No,No,No,Yes,Yes
+28|-38,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,Yes,'Don t know',Yes,'Very easy',No,No,'Some of them',No,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,500-1000,No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,No,Yes
+28|-38,F,'North America',No,Yes,Yes,Often,'More than 1000',No,No,Yes,No,No,No,'Don t know','Somewhat difficult',Yes,No,No,No,No,Maybe,No,No
+28|-38,M,India,No,No,No,Often,6-25,No,Yes,No,No,No,No,No,'Very easy',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,No,Yes,No,No,'Don t know','Don t know',No,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,No,Yes,Yes,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Sometimes,500-1000,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,Maybe,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,'Don t know',No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',Yes,Yes,Yes,Often,26-100,No,Yes,Yes,'Not sure',Yes,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,NA,Yes,Yes,Often,26-100,No,Yes,No,Yes,No,No,No,'Somewhat difficult',Yes,Yes,'Some of them',No,Maybe,Maybe,No,Yes
+28|-38,M,'North America',NA,No,No,Never,100-500,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Yes,Yes,'Don t know',No
+28|-38,M,'North America',NA,No,Yes,Sometimes,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',Yes,No,No,Never,1-5,Yes,Yes,No,No,No,No,Yes,'Somewhat difficult',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,M,'North America',Yes,Yes,No,Rarely,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat difficult',Yes,No,No,No,No,No,No,Yes
+28|-38,M,'North America',No,No,No,NA,100-500,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,26-100,Yes,No,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',Yes,Yes,No,Sometimes,1-5,Yes,Yes,No,No,No,No,Yes,'Somewhat difficult',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,No,No
+28|-38,M,'North America',No,No,No,Never,500-1000,No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'South America',No,Yes,Yes,Sometimes,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Yes,No,No
+28|-38,M,Europe,No,Yes,No,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,No,No,No,No,Yes,No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,No,No,Yes,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,Yes,No,Yes,Often,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,Yes,No,Never,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',Yes,No,No,NA,6-25,No,Yes,Yes,Yes,No,'Don t know',Yes,'Very easy',No,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,100-500,Yes,Yes,Yes,Yes,Yes,'Don t know',Yes,'Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,F,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know',Yes,'Somewhat easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,100-500,No,No,'Don t know',No,No,No,Yes,'Somewhat easy',Maybe,No,No,No,No,Yes,No,No
+28|-38,M,'North America',No,No,Yes,Sometimes,500-1000,No,No,No,Yes,No,'Don t know',Yes,'Don t know',No,No,'Some of them',No,No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',No,No,Yes,Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',Yes,No,'Some of them',No,No,No,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Rarely,'More than 1000',No,No,'Don t know','Not sure',No,'Don t know','Don t know','Very difficult',Yes,Maybe,No,No,No,Maybe,No,No
+28|-38,Outro,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,Yes,Yes,No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know',Yes,'Don t know',No,No,No,'Some of them',No,No,Yes,No
+28|-38,F,'North America',Yes,Yes,Yes,Sometimes,100-500,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,No,No,Yes,No
+28|-38,M,Australia,No,No,Yes,Rarely,100-500,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',No,No,Yes,Yes,Yes,Yes,No,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,100-500,No,Yes,Yes,Yes,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,Yes,No,Sometimes,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Somewhat easy',Maybe,No,No,'Some of them',No,Yes,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Rarely,100-500,No,Yes,No,No,No,'Don t know','Don t know','Somewhat difficult',Yes,Yes,'Some of them',No,No,No,No,Yes
+28|-38,F,'North America',No,No,Yes,Often,26-100,Yes,Yes,Yes,Yes,No,No,'Don t know','Very easy',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Sometimes,6-25,Yes,Yes,No,No,No,No,No,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,F,Europe,No,Yes,Yes,Rarely,100-500,No,No,Yes,No,No,No,No,'Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',Yes
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,500-1000,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,No,Yes,No
+28|-38,M,Africa,No,No,No,Never,100-500,Yes,Yes,No,No,No,No,No,'Don t know',No,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,No,No,NA,26-100,No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,Yes,Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+28|-38,M,'North America',Yes,Yes,No,Sometimes,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,No,No,No,No,Yes,No
+28|-38,F,Europe,No,No,No,NA,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,'Don t know','Somewhat difficult',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,NA,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,No,Yes,Yes,No,Yes,No,Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,No,Yes,Never,26-100,No,Yes,Yes,Yes,No,'Don t know',Yes,'Very easy',Maybe,No,No,No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Rarely,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+28|-38,M,'North America',No,Yes,No,Never,100-500,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,500-1000,No,Yes,Yes,Yes,No,'Don t know',Yes,'Somewhat easy',Maybe,No,'Some of them',Yes,No,No,Yes,No
+28|-38,F,'North America',No,Yes,No,Never,'More than 1000',No,No,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Yes,Yes,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',Yes,Yes,Yes,'Don t know',Yes,Maybe,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Don t know',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Often,26-100,No,Yes,No,No,No,No,No,'Very difficult',Yes,No,No,No,No,Yes,No,Yes
+28|-38,M,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,Europe,No,Yes,Yes,Never,6-25,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,100-500,No,Yes,Yes,No,No,Yes,'Don t know','Don t know',Maybe,Yes,'Some of them',No,No,No,Yes,No
+28|-38,M,India,No,No,No,NA,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,Yes,No,No,No,No,'Don t know',No
+28|-38,F,Europe,No,No,No,NA,26-100,No,Yes,'Don t know','Not sure',No,No,Yes,'Very easy',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'South America',Yes,No,Yes,NA,1-5,No,Yes,No,Yes,No,No,No,'Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Sometimes,'More than 1000',No,Yes,'Don t know',No,No,No,'Don t know','Very difficult',Yes,Yes,'Some of them',No,No,Maybe,No,Yes
+28|-38,M,Europe,No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know',No,No,No,Yes,'Somewhat easy',No,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,Yes,No,Yes,Often,6-25,Yes,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',NA,No,No,Rarely,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',No,No,Yes,Yes,Yes,Yes,No,No
+28|-38,M,'North America',NA,No,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,No,No
+28|-38,M,Europe,No,No,No,Never,6-25,Yes,Yes,No,No,No,No,'Don t know','Don t know',Yes,Yes,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,No,No,Never,1-5,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,NA,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,No,No,No,No,'Don t know','Somewhat difficult',Yes,No,'Some of them',No,No,Yes,No,No
+28|-38,M,'North America',No,No,No,NA,500-1000,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,No,Yes,Yes,Yes,'Somewhat difficult',Maybe,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,Never,100-500,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Rarely,100-500,No,Yes,Yes,Yes,No,Yes,Yes,'Don t know',Yes,No,No,Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Rarely,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Very difficult',Maybe,No,Yes,'Some of them',No,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Never,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Very easy',No,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,F,'North America',No,No,Yes,Often,6-25,Yes,Yes,Yes,'Not sure','Don t know','Don t know',Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,Yes
+28|-38,F,Europe,No,No,No,Sometimes,100-500,No,Yes,No,No,No,No,'Don t know','Very difficult',Yes,Yes,'Some of them',No,No,No,No,Yes
+28|-38,M,Europe,No,Yes,Yes,Sometimes,100-500,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Yes,Maybe,No,No,No,No,No,Yes
+28|-38,F,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,'Don t know',No,No,No,No,'Don t know',Yes,Maybe,'Some of them','Some of them',No,Maybe,No,Yes
+28|-38,F,'North America',No,No,Yes,Sometimes,100-500,No,No,Yes,Yes,'Don t know','Don t know',Yes,'Very easy',No,No,Yes,Yes,No,Yes,Yes,No
+28|-38,M,'North America',No,No,No,Rarely,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Very difficult',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,No,Yes,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,6-25,No,Yes,No,Yes,No,'Don t know','Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',Maybe,Maybe,Yes,'Some of them',Maybe,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,No,No,Never,6-25,Yes,Yes,No,No,No,No,'Don t know','Very easy',No,No,Yes,Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,500-1000,No,Yes,Yes,'Not sure','Don t know',Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,Yes,Yes,No
+28|-38,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,F,'North America',No,No,No,Never,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,No,No,No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Yes,Yes,No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,No,'Not sure',No,'Don t know','Don t know','Don t know',No,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,6-25,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Never,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Yes,Yes,Yes,No
+28|-38,M,Oceania,No,No,Yes,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Very easy',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+28|-38,F,'North America',No,No,Yes,Often,'More than 1000',No,No,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,No,No,Yes,'Don t know','Somewhat easy',No,No,Yes,'Some of them',Maybe,Yes,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,100-500,No,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,No,No
+28|-38,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,Sometimes,26-100,Yes,Yes,No,Yes,No,No,Yes,'Very difficult',Yes,Maybe,'Some of them',No,No,Maybe,No,Yes
+28|-38,M,'North America',No,No,Yes,Never,500-1000,No,No,Yes,'Not sure',Yes,Yes,'Don t know','Very easy',Maybe,No,No,No,No,No,Yes,No
+28|-38,M,Europe,Yes,No,No,Never,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Yes,No,No
+28|-38,M,Europe,No,No,Yes,Sometimes,26-100,No,No,Yes,Yes,No,No,Yes,'Very easy',No,No,No,Yes,No,No,Yes,No
+28|-38,M,Europe,No,No,Yes,Rarely,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,No,Maybe,No,Yes
+28|-38,M,'North America',Yes,No,Yes,Sometimes,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+28|-38,M,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Very difficult',Yes,Maybe,'Some of them',No,No,No,No,No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,Maybe,No,No,No,No,No,No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,No,'Somewhat difficult',Maybe,No,'Some of them',No,Maybe,Maybe,No,No
+28|-38,M,Europe,No,No,No,NA,'More than 1000',No,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,Outro,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,'Don t know',No,Yes,Yes,'Don t know','Don t know',No,No,Yes,'Some of them',Yes,Yes,Yes,Yes
+28|-38,M,Europe,Yes,Yes,No,NA,1-5,No,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,No,Yes,No,Maybe,No,No
+28|-38,F,'North America',No,Yes,Yes,Often,100-500,No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Yes,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Rarely,6-25,No,No,No,No,No,No,No,'Don t know',Yes,Maybe,'Some of them',No,No,No,No,No
+28|-38,M,Europe,No,Yes,Yes,Rarely,6-25,No,No,No,No,No,No,No,'Don t know',Yes,Maybe,'Some of them',No,No,No,No,No
+28|-38,M,Europe,Yes,No,No,Sometimes,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them','Some of them',Maybe,Maybe,No,No
+28|-38,F,Europe,No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',Yes
+28|-38,M,'North America',Yes,Yes,Yes,Rarely,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Sometimes,100-500,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',Yes,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Very easy',No,No,No,Yes,No,Maybe,No,No
+28|-38,M,Europe,No,No,No,Rarely,500-1000,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,6-25,No,Yes,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',No,No,Yes,Yes,No,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,No,Yes,Sometimes,1-5,No,Yes,No,No,No,No,Yes,'Very difficult',Maybe,No,'Some of them',Yes,No,Maybe,No,No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,1-5,No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,Yes,'Don t know',Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Often,100-500,No,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,No,Yes,Yes,No,Yes,No,No
+28|-38,M,Europe,Yes,No,Yes,Rarely,1-5,No,Yes,No,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,Yes,No,Yes
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',Yes
+28|-38,M,'North America',No,No,No,Rarely,6-25,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat difficult',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',Yes
+28|-38,M,'North America',Yes,No,No,Never,6-25,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,No,Sometimes,'More than 1000',No,Yes,Yes,No,Yes,'Don t know','Don t know','Don t know',Maybe,No,Yes,Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,No,No
+28|-38,F,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,Maybe,'Some of them',No,No,No,No,No
+28|-38,M,'North America',No,No,Yes,Often,26-100,Yes,Yes,Yes,'Not sure',No,'Don t know','Don t know','Very difficult',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,F,Europe,No,Yes,No,Never,'More than 1000',No,Yes,Yes,Yes,'Don t know',Yes,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,F,Europe,No,No,No,NA,'More than 1000',No,No,No,No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Yes,No,No
+28|-38,M,'North America',No,No,No,Never,100-500,No,Yes,Yes,'Not sure','Don t know',Yes,'Don t know','Somewhat easy',No,No,No,'Some of them',Maybe,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Often,26-100,Yes,Yes,Yes,Yes,No,No,Yes,'Somewhat difficult',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',NA,Yes,No,Sometimes,6-25,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Rarely,26-100,No,Yes,Yes,'Not sure','Don t know',Yes,Yes,'Don t know',No,No,Yes,Yes,No,Yes,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,1-5,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,100-500,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Often,6-25,Yes,Yes,'Don t know',No,No,No,No,'Somewhat difficult',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,'Don t know','Not sure',Yes,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,No,Never,'More than 1000',No,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Maybe,No,No
+28|-38,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know',No,'Don t know','Don t know',Yes,'Very easy',No,No,Yes,Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,No,'Don t know','Very easy',Maybe,No,Yes,'Some of them',No,Yes,No,No
+28|-38,F,'North America',Yes,Yes,Yes,Sometimes,1-5,No,Yes,No,Yes,Yes,Yes,Yes,'Very difficult',No,No,'Some of them',Yes,No,Yes,Yes,No
+28|-38,M,'North America',No,No,No,NA,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Very easy',No,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,100-500,No,Yes,Yes,No,Yes,Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,No,Yes,Yes,'Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,Yes,Yes,Rarely,1-5,No,No,No,No,No,No,'Don t know','Somewhat difficult',Yes,Yes,No,No,Maybe,No,Yes,Yes
+28|-38,F,'North America',No,Yes,No,Sometimes,26-100,Yes,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,Maybe,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,Europe,No,No,No,Rarely,1-5,Yes,Yes,'Don t know',No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,F,Europe,No,Yes,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,No,Yes,Yes,'Don t know',Maybe,No,'Some of them',No,No,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Never,26-100,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',Yes,Maybe,Yes,'Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Yes,No,'Some of them',No,No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Often,'More than 1000',Yes,Yes,Yes,Yes,No,No,'Don t know','Somewhat easy',Yes,No,No,No,No,No,No,No
+28|-38,M,'North America',Yes,No,Yes,Often,1-5,Yes,Yes,No,No,No,No,Yes,'Somewhat easy',Yes,Maybe,'Some of them','Some of them',Yes,Yes,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,100-500,Yes,Yes,Yes,No,'Don t know',No,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,F,'North America',No,No,No,Never,500-1000,No,Yes,Yes,'Not sure',Yes,Yes,'Don t know','Very easy',Maybe,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,Europe,No,No,No,Never,6-25,No,No,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,No,No
+28|-38,F,'North America',No,No,Yes,Sometimes,500-1000,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know','Very easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,No,Yes,'Very easy',Yes,Yes,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,No,No,NA,26-100,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Yes,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,Australia,No,No,No,Never,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+28|-38,M,'North America',No,Yes,No,Sometimes,6-25,Yes,Yes,'Don t know','Not sure',No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,100-500,No,No,Yes,'Not sure',No,No,Yes,'Somewhat difficult',Yes,Yes,No,No,No,No,No,No
+28|-38,M,Europe,No,No,Yes,Rarely,26-100,Yes,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+28|-38,F,'North America',No,Yes,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',Yes,Yes,Yes,Rarely,1-5,Yes,Yes,No,Yes,Yes,Yes,No,'Very difficult',No,No,Yes,Yes,No,No,Yes,Yes
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,1-5,No,No,No,Yes,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,No,No,Never,100-500,No,No,No,'Not sure',No,No,'Don t know','Very easy',No,No,Yes,'Some of them',No,Yes,No,No
+28|-38,M,Europe,No,No,Yes,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,No,NA,26-100,No,Yes,Yes,Yes,No,No,'Don t know','Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,'North America',Yes,Yes,Yes,Sometimes,1-5,No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Yes,'Some of them',No,No,No,No,No
+28|-38,M,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,No,No,Yes,'Very easy',Maybe,Maybe,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,Yes,Sometimes,6-25,Yes,Yes,No,Yes,No,No,Yes,'Somewhat difficult',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+28|-38,M,'North America',Yes,No,No,NA,1-5,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,NA,26-100,No,No,Yes,No,No,No,Yes,'Somewhat difficult',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,100-500,No,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Often,6-25,Yes,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,No,'Some of them',Yes,No,Maybe,No,No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,'Don t know',Yes,No,Yes,'Don t know','Somewhat easy',No,No,Yes,Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,NA,500-1000,No,Yes,Yes,No,'Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+28|-38,M,Europe,No,Yes,Yes,NA,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,Yes,Yes
+28|-38,M,Europe,No,Yes,Yes,Often,26-100,No,Yes,'Don t know','Not sure',Yes,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,Yes,Yes,Yes,No
+28|-38,M,Europe,No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,No,No,No,'Very difficult',Yes,Maybe,'Some of them','Some of them',No,Maybe,No,Yes
+28|-38,F,Europe,Yes,No,Yes,Sometimes,1-5,Yes,Yes,No,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,'North America',Yes,No,No,Never,1-5,Yes,Yes,No,Yes,'Don t know','Don t know',Yes,'Somewhat easy',Maybe,No,No,'Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,6-25,Yes,Yes,Yes,No,'Don t know',Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,6-25,No,Yes,No,'Not sure',No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',Yes,No,No,Never,6-25,Yes,Yes,'Don t know',No,No,No,No,'Very easy',Maybe,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,F,'North America',Yes,Yes,Yes,Often,1-5,Yes,Yes,No,Yes,No,No,No,'Very difficult',Yes,Yes,No,No,No,Maybe,No,Yes
+28|-38,F,'North America',No,No,Yes,Often,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,6-25,Yes,Yes,Yes,Yes,No,'Don t know',Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,F,Europe,No,No,Yes,Never,100-500,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Very easy',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,Europe,No,Yes,No,Often,100-500,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,No,Yes,Often,26-100,Yes,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat difficult',No,No,'Some of them',No,No,No,No,No
+28|-38,M,'North America',No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',No,No,Yes,Yes,Maybe,Yes,'Don t know',No
+28|-38,M,'North America',Yes,No,No,Rarely,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Rarely,500-1000,Yes,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Never,6-25,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,26-100,No,Yes,No,No,No,No,'Don t know','Very easy',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,No,No
+28|-38,F,'North America',No,No,Yes,Sometimes,500-1000,No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,Europe,No,Yes,No,NA,100-500,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,F,'North America',No,No,No,NA,6-25,No,Yes,Yes,No,No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Australia,Yes,No,No,Sometimes,1-5,Yes,Yes,'Don t know','Not sure',Yes,Yes,'Don t know','Somewhat difficult',Yes,Yes,No,No,No,Maybe,Yes,No
+28|-38,M,Europe,No,Yes,No,NA,6-25,No,Yes,No,No,No,No,Yes,'Somewhat difficult',No,No,'Some of them',Yes,No,Yes,No,Yes
+28|-38,M,'North America',No,Yes,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them','Some of them',No,Maybe,No,Yes
+28|-38,M,Europe,No,No,No,Sometimes,26-100,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,Maybe,Yes,'Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,No,No,Yes,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,'Don t know',Yes,Yes,'Don t know',Maybe,Maybe,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,No,No,No,No,'Don t know','Somewhat easy',Yes,Yes,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,Yes,Yes,Rarely,26-100,Yes,Yes,No,No,No,'Don t know','Don t know','Somewhat difficult',No,No,Yes,Yes,No,Maybe,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Very difficult',Maybe,Maybe,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,Europe,No,No,No,Never,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,Yes,Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,NA,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,Yes,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Very difficult',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Rarely,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,M,Europe,No,Yes,Yes,Often,26-100,No,Yes,No,Yes,No,No,Yes,'Very easy',Maybe,Maybe,Yes,Yes,No,No,No,No
+28|-38,M,Australia,No,No,No,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,No,Yes,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',Yes
+28|-38,M,'North America',Yes,Yes,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them','Some of them',No,No,No,No
+28|-38,F,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,Yes,Yes,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,No,Yes,No
+28|-38,F,Australia,No,Yes,No,Never,500-1000,No,No,'Don t know',No,Yes,Yes,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',Yes
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Rarely,26-100,No,Yes,No,No,No,No,Yes,'Somewhat easy',Maybe,Maybe,No,'Some of them',Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Yes,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,No,Yes,'Don t know',No,Yes,'Don t know',Yes,'Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,6-25,Yes,Yes,No,No,No,No,No,'Somewhat difficult',Yes,Maybe,No,No,No,Yes,No,Yes
+28|-38,M,Europe,Yes,No,Yes,Sometimes,1-5,Yes,Yes,No,'Not sure',No,No,Yes,'Somewhat difficult',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,Yes,No,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,Yes,'Somewhat difficult',No,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,No,Often,1-5,No,Yes,'Don t know',No,No,Yes,'Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,Europe,No,No,Yes,Rarely,26-100,No,Yes,No,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,Yes,Yes,Yes,Rarely,1-5,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,Yes,'Some of them',No,Maybe,Yes,No
+28|-38,F,Europe,No,Yes,Yes,Often,26-100,Yes,No,Yes,Yes,No,Yes,No,'Somewhat easy',Yes,Yes,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Often,100-500,No,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,500-1000,No,Yes,'Don t know',No,No,'Don t know','Don t know','Very easy',Maybe,No,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,Sometimes,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Yes,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,'Not sure',Yes,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,Sometimes,1-5,No,Yes,No,'Not sure',No,No,'Don t know','Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,Never,6-25,Yes,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Somewhat easy',Maybe,Maybe,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,26-100,Yes,Yes,No,No,No,No,'Don t know','Very difficult',Yes,Maybe,'Some of them',No,No,Maybe,No,No
+28|-38,F,'North America',No,Yes,Yes,Often,26-100,No,No,'Don t know',No,Yes,'Don t know','Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,No,Never,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',Yes,Yes,No,No,No,No,'Don t know',No
+28|-38,F,Europe,No,Yes,No,Rarely,26-100,No,No,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Never,'More than 1000',Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',Yes,Yes,Yes,'Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+28|-38,F,Europe,No,No,Yes,Sometimes,500-1000,No,No,Yes,Yes,Yes,No,Yes,'Don t know',Yes,Yes,'Some of them','Some of them',No,No,Yes,No
+28|-38,M,Europe,No,No,Yes,Often,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them',Yes,No,Maybe,No,No
+28|-38,M,Europe,No,Yes,Yes,Never,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,Europe,No,Yes,No,Often,26-100,Yes,No,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,Maybe,Yes,Yes,No
+28|-38,F,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,No,Yes,No,Yes,Yes,'Somewhat difficult',Maybe,Maybe,'Some of them',Yes,No,Maybe,No,Yes
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,No,'Don t know','Somewhat difficult',Yes,Yes,No,No,No,No,No,No
+28|-38,F,'North America',NA,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,No,'Somewhat difficult',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,No,'Don t know',No,'Very easy',Yes,No,'Some of them',Yes,No,Yes,No,No
+28|-38,F,'North America',No,Yes,Yes,Rarely,6-25,Yes,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,Yes,Rarely,'More than 1000',Yes,Yes,Yes,Yes,No,Yes,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,Yes,'Not sure','Don t know',Yes,'Don t know','Somewhat difficult',Yes,Yes,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Rarely,6-25,No,Yes,Yes,'Not sure',No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Maybe,No,No
+28|-38,M,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,26-100,Yes,No,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Yes,No,'Some of them',No,No,Maybe,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Never,'More than 1000',No,Yes,Yes,'Not sure','Don t know',No,Yes,'Somewhat easy',Maybe,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Rarely,6-25,No,Yes,No,No,No,No,Yes,'Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,Never,500-1000,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,No,Yes,'Somewhat difficult',Yes,No,No,'Some of them',No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Rarely,100-500,No,Yes,Yes,'Not sure','Don t know',Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,26-100,No,No,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,No,No,No,No
+28|-38,M,'North America',No,Yes,No,NA,'More than 1000',No,Yes,Yes,No,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Very difficult',Maybe,Maybe,'Some of them',Yes,No,Maybe,No,Yes
+28|-38,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,'Don t know','Very difficult',Maybe,Maybe,'Some of them','Some of them',No,Maybe,No,Yes
+28|-38,M,Europe,No,Yes,No,Never,100-500,No,Yes,Yes,No,No,No,Yes,'Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+28|-38,F,'North America',No,No,Yes,Sometimes,100-500,No,Yes,No,Yes,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,No,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,No,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,No,No,No
+28|-38,M,'North America',No,No,No,Never,6-25,No,Yes,No,Yes,No,No,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',Yes,Yes,No,NA,6-25,Yes,Yes,No,No,Yes,Yes,'Don t know','Very easy',No,No,Yes,Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,No,Never,26-100,No,Yes,Yes,No,Yes,'Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,100-500,Yes,No,Yes,Yes,No,No,Yes,'Very difficult',Yes,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,Europe,No,No,Yes,Rarely,100-500,No,No,'Don t know',No,Yes,'Don t know','Don t know','Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',Yes,No,No,NA,1-5,Yes,Yes,Yes,'Not sure',No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,No,No,No,No,'Don t know','Very easy',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Sometimes,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,No,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,F,'North America',No,No,Yes,Sometimes,100-500,No,No,Yes,No,No,No,Yes,'Very difficult',Yes,Maybe,No,'Some of them',No,Yes,No,Yes
+28|-38,F,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Very easy',Maybe,No,'Some of them',No,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,Yes,Often,1-5,No,No,No,No,No,No,Yes,'Very difficult',Yes,No,'Some of them','Some of them',No,Yes,No,Yes
+28|-38,M,Europe,Yes,Yes,Yes,Often,1-5,No,Yes,No,Yes,Yes,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',Maybe,Yes,Yes,No
+28|-38,M,Europe,Yes,Yes,Yes,Often,1-5,No,Yes,No,Yes,Yes,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',Maybe,Yes,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,1-5,No,No,No,Yes,No,No,Yes,'Don t know',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure',Yes,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,Maybe,No,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,26-100,No,No,Yes,Yes,No,Yes,Yes,'Somewhat difficult',Maybe,No,'Some of them','Some of them',No,No,No,No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,6-25,No,No,Yes,'Not sure',Yes,Yes,Yes,'Somewhat difficult',Maybe,Maybe,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,'Don t know',Yes,'Don t know','Very difficult',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,Yes,No,Yes,Sometimes,26-100,Yes,No,'Don t know',No,No,No,'Don t know','Somewhat difficult',Yes,Maybe,Yes,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,Yes,No,No,Sometimes,1-5,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,1-5,No,Yes,No,Yes,No,No,Yes,'Very easy',Yes,Yes,'Some of them','Some of them',No,Maybe,Yes,Yes
+28|-38,M,'North America',No,Yes,No,Sometimes,6-25,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',Maybe,No,No,'Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,6-25,Yes,Yes,No,No,No,No,'Don t know','Don t know',No,No,No,No,No,No,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Often,'More than 1000',No,Yes,'Don t know','Not sure',No,No,Yes,'Very easy',No,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,F,'North America',No,Yes,No,Sometimes,6-25,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,Yes,'Some of them',No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Don t know',No,No,No,No,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Often,'More than 1000',No,No,Yes,Yes,No,Yes,'Don t know','Somewhat easy',Yes,No,No,'Some of them',No,Yes,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,Yes,'Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,Yes,No
+28|-38,F,Europe,No,No,No,Rarely,1-5,No,Yes,'Don t know',No,No,No,No,'Don t know',Maybe,No,'Some of them',No,No,Maybe,No,No
+28|-38,M,'North America',NA,Yes,No,Never,500-1000,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,No,No,'Don t know',No
+28|-38,M,Europe,Yes,Yes,No,NA,6-25,Yes,Yes,No,No,Yes,No,Yes,'Somewhat easy',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,100-500,Yes,Yes,Yes,No,'Don t know',Yes,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',Maybe,Yes,Yes,No
+28|-38,M,'North America',No,No,No,Often,6-25,No,Yes,Yes,No,No,No,Yes,'Don t know',Maybe,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,6-25,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,Yes,No,No,Yes,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+28|-38,M,'North America',Yes,No,Yes,Never,1-5,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,NA,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Often,100-500,No,Yes,No,Yes,No,No,Yes,'Very easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Rarely,'More than 1000',Yes,Yes,Yes,No,Yes,'Don t know','Don t know','Somewhat easy',Maybe,No,No,No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Sometimes,'More than 1000',No,Yes,'Don t know',No,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Yes,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,No,Yes,'Not sure',No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them',No,No,No,No,Yes
+28|-38,M,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,'Don t know',Yes,'Don t know',No,Yes,'Somewhat difficult',Maybe,No,'Some of them',Yes,No,Yes,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,No,No,Yes,'Don t know','Somewhat difficult',Yes,No,'Some of them',Yes,No,Yes,No,No
+28|-38,M,'North America',No,No,Yes,Rarely,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,Yes,Yes,Yes,Often,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,Yes
+28|-38,M,Europe,No,No,No,NA,26-100,No,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',Yes,No,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,Yes,Yes,No,No,'Don t know','Very difficult',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,F,'North America',No,No,Yes,Never,6-25,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,No,No
+28|-38,F,'North America',No,Yes,No,NA,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,No,'Some of them',No,Maybe,Yes,No
+28|-38,F,Europe,Yes,No,No,Sometimes,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat difficult',No,No,'Some of them',Yes,No,No,No,No
+28|-38,M,Europe,Yes,No,No,Sometimes,6-25,Yes,Yes,No,No,No,No,'Don t know','Somewhat difficult',No,No,Yes,Yes,No,Maybe,'Don t know',Yes
+28|-38,M,Europe,Yes,No,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Very easy',No,No,Yes,No,No,No,Yes,No
+28|-38,M,'North America',Yes,No,No,Never,1-5,No,Yes,Yes,No,No,'Don t know','Don t know','Somewhat difficult',No,No,'Some of them',Yes,Yes,Yes,Yes,No
+28|-38,M,'North America',No,No,Yes,Rarely,500-1000,Yes,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,100-500,No,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,No,No,Never,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',Yes,No,Yes,Sometimes,1-5,No,No,No,Yes,No,No,No,'Very difficult',No,No,No,No,No,No,No,Yes
+28|-38,F,'North America',No,Yes,Yes,Rarely,'More than 1000',Yes,Yes,Yes,Yes,No,No,Yes,'Somewhat easy',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+28|-38,M,Europe,No,No,Yes,Often,6-25,No,Yes,No,No,No,No,No,'Very difficult',Yes,No,'Some of them',No,No,Maybe,'Don t know',Yes
+28|-38,M,Africa,No,Yes,Yes,Often,100-500,No,No,No,Yes,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Yes,Yes,No
+28|-38,M,'North America',No,Yes,No,Rarely,'More than 1000',No,No,'Don t know',No,Yes,Yes,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,F,'North America',NA,No,Yes,Often,6-25,No,Yes,Yes,'Not sure',No,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,Europe,No,No,No,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Very difficult',Yes,Maybe,'Some of them',No,No,Maybe,No,No
+28|-38,M,Europe,Yes,No,Yes,Sometimes,'More than 1000',No,No,No,Yes,Yes,Yes,Yes,'Very difficult',Yes,Yes,'Some of them',No,No,Maybe,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,100-500,No,No,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,M,Europe,No,Yes,Yes,Rarely,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat difficult',Yes,Maybe,'Some of them',No,No,Yes,No,Yes
+28|-38,M,'North America',No,No,No,NA,500-1000,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Yes,No,'Some of them',No,Maybe,Yes,No,No
+28|-38,M,Europe,No,No,No,Sometimes,1-5,No,Yes,No,Yes,No,No,'Don t know','Very difficult',Yes,No,No,No,No,Yes,'Don t know',No
+28|-38,M,Europe,No,Yes,No,Sometimes,26-100,No,No,No,No,No,No,'Don t know','Don t know',Yes,Maybe,'Some of them',Yes,No,Maybe,'Don t know',No
+28|-38,M,'North America',No,Yes,Yes,Often,26-100,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+28|-38,F,'North America',No,Yes,Yes,Often,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,Yes,'Don t know',No
+28|-38,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+28|-38,F,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,'Don t know',Yes,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+28|-38,M,'North America',No,Yes,Yes,Rarely,'More than 1000',No,No,Yes,Yes,Yes,Yes,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,No,No,NA,500-1000,No,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,'North America',No,Yes,No,Never,26-100,No,Yes,'Don t know',No,No,'Don t know','Don t know','Somewhat easy',No,No,Yes,Yes,No,No,Yes,No
+28|-38,M,'North America',No,No,No,Often,'More than 1000',No,No,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,No,No
+28|-38,Outro,'North America',No,Yes,Yes,Sometimes,100-500,No,No,Yes,Yes,No,No,'Don t know','Somewhat difficult',Yes,Maybe,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,Europe,Yes,No,No,Never,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,100-500,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,No,No
+28|-38,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Don t know',Maybe,No,Yes,Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,No,No,NA,26-100,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Yes,No,'Some of them',No,No,No,'Don t know',No
+28|-38,M,'North America',Yes,No,No,NA,6-25,Yes,Yes,Yes,Yes,Yes,No,Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,No,Yes,Often,6-25,No,Yes,No,No,No,No,'Don t know','Don t know',Yes,No,Yes,Yes,Maybe,Yes,No,No
+28|-38,M,Australia,No,Yes,Yes,Sometimes,26-100,No,Yes,No,Yes,No,No,Yes,'Very easy',No,No,'Some of them',Yes,No,Maybe,Yes,Yes
+28|-38,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,F,'North America',No,Yes,Yes,Rarely,26-100,No,No,Yes,Yes,Yes,Yes,'Don t know','Don t know',Maybe,Maybe,Yes,'Some of them',No,Maybe,Yes,No
+28|-38,M,Europe,No,Yes,Yes,Sometimes,1-5,No,Yes,No,No,No,No,'Don t know','Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,Europe,No,Yes,Yes,Rarely,6-25,No,Yes,No,No,No,No,Yes,'Somewhat easy',Yes,No,'Some of them',Yes,No,Maybe,No,Yes
+28|-38,M,Europe,No,No,No,NA,100-500,Yes,No,'Don t know',No,'Don t know','Don t know','Don t know','Somewhat easy',Maybe,No,Yes,Yes,No,No,'Don t know',No
+28|-38,F,'North America',No,No,Yes,Often,6-25,Yes,Yes,'Don t know','Not sure',No,No,Yes,'Somewhat difficult',Yes,No,'Some of them','Some of them',No,Yes,No,Yes
+28|-38,M,Europe,No,No,No,Sometimes,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Yes,Yes,'Some of them',No,No,No,No,No
+28|-38,M,'North America',No,Yes,No,NA,500-1000,No,No,Yes,Yes,No,No,Yes,'Very easy',Maybe,No,No,No,No,No,No,No
+28|-38,M,'North America',No,No,No,Never,500-1000,Yes,Yes,Yes,No,Yes,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,Yes,Yes
+28|-38,F,'North America',Yes,Yes,Yes,Rarely,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',Yes,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',Yes
+28|-38,M,'North America',No,Yes,No,Sometimes,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+28|-38,F,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+28|-38,M,Europe,No,No,No,NA,6-25,No,Yes,'Don t know',No,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28|-38,M,'North America',No,No,Yes,Sometimes,100-500,No,Yes,Yes,No,No,Yes,Yes,'Very easy',No,No,No,Yes,No,No,Yes,No
+28|-38,M,Europe,No,No,No,NA,6-25,Yes,Yes,No,'Not sure',No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,Maybe,Yes,'Don t know',No
+28|-38,M,Europe,No,Yes,No,Sometimes,6-25,No,Yes,No,No,No,No,Yes,'Somewhat easy',Maybe,No,'Some of them',Yes,No,Maybe,Yes,No
+28|-38,M,Europe,Yes,No,No,Never,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Very easy',Yes,Yes,'Some of them','Some of them',No,No,'Don t know',No
+28|-38,M,Europe,No,No,No,Never,26-100,Yes,Yes,'Don t know',No,No,No,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Yes,'Don t know',No
+38|-48,M,Europe,No,No,No,NA,100-500,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+38|-48,M,Europe,No,No,No,NA,26-100,No,Yes,No,No,No,'Don t know',Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+38|-48,M,'North America',No,Yes,No,Sometimes,100-500,Yes,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',No,No,Yes,'Some of them',Maybe,Maybe,Yes,No
+38|-48,M,'North America',No,No,No,NA,26-100,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,Yes,Yes,Maybe,Yes,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,F,Africa,Yes,Yes,Yes,Often,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+38|-48,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,'Don t know','Not sure','Don t know','Don t know','Don t know','Very difficult',Yes,No,No,No,No,Maybe,No,No
+38|-48,M,'North America',No,No,No,Sometimes,26-100,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,No,Maybe,No,No
+38|-48,M,'North America',No,No,Yes,Rarely,26-100,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Yes,No,No,No,No,Maybe,No,No
+38|-48,F,'North America',No,No,Yes,Sometimes,1-5,No,Yes,No,Yes,No,No,'Don t know','Don t know',No,Maybe,'Some of them',No,No,No,'Don t know',Yes
+38|-48,M,Europe,Yes,No,Yes,Sometimes,26-100,Yes,Yes,No,No,No,No,Yes,'Somewhat easy',Maybe,Maybe,'Some of them',Yes,No,Maybe,Yes,No
+38|-48,F,'North America',No,No,Yes,NA,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,Maybe,No,No,No,No,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',Yes,Yes,Yes,'Don t know',Yes,No,No,No,No,No,No,No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Very easy',Maybe,No,Yes,Yes,No,No,No,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+38|-48,M,Europe,No,Yes,No,Often,26-100,Yes,Yes,No,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,26-100,No,No,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+38|-48,M,Europe,No,Yes,Yes,Sometimes,1-5,No,Yes,No,No,No,No,No,'Very difficult',Yes,Yes,No,No,No,No,No,No
+38|-48,M,'North America',No,No,No,Never,26-100,No,Yes,Yes,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,'Some of them',Yes,No,Maybe,No,Yes
+38|-48,M,'North America',No,No,No,Never,'More than 1000',Yes,Yes,No,Yes,No,No,No,'Very difficult',Yes,Yes,No,No,No,No,'Don t know',No
+38|-48,M,Europe,No,Yes,No,NA,500-1000,No,No,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,Maybe,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,No,'Not sure',No,No,'Don t know','Very difficult',Yes,Yes,No,'Some of them',No,Maybe,No,No
+38|-48,M,Europe,Yes,Yes,Yes,Rarely,1-5,Yes,No,No,No,No,No,Yes,'Very difficult',Maybe,No,No,No,No,No,No,No
+38|-48,M,'North America',No,No,No,NA,6-25,No,Yes,No,No,No,No,Yes,'Don t know',Maybe,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,'Some of them','Some of them',No,Maybe,No,Yes
+38|-48,M,Europe,No,No,No,NA,1-5,Yes,Yes,No,No,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,100-500,Yes,No,Yes,Yes,No,Yes,Yes,'Very easy',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+38|-48,F,'North America',No,Yes,No,Sometimes,26-100,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,No,Never,'More than 1000',No,No,Yes,'Not sure',Yes,Yes,'Don t know','Don t know',Yes,Maybe,'Some of them',No,No,No,No,No
+38|-48,M,'North America',No,Yes,Yes,Rarely,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Yes,No,No,Yes,No,Yes,'Don t know',No
+38|-48,M,Europe,No,Yes,Yes,Sometimes,1-5,No,Yes,No,'Not sure','Don t know','Don t know','Don t know','Very easy',No,No,'Some of them',Yes,Maybe,Yes,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Rarely,100-500,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,No,Maybe,No,No
+38|-48,M,'North America',No,Yes,No,NA,6-25,No,Yes,'Don t know',No,No,No,'Don t know','Somewhat difficult',No,No,'Some of them',Yes,No,No,'Don t know',Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,No,'Some of them',No,No,Maybe,No,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,Europe,No,No,No,Never,26-100,No,Yes,'Don t know','Not sure','Don t know','Don t know',Yes,'Don t know',No,No,'Some of them',Yes,Yes,Maybe,No,No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',Yes,Yes,Yes,No,Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,No,No,'Don t know',No
+38|-48,M,'North America',NA,No,No,Never,1-5,Yes,Yes,No,Yes,No,No,Yes,'Don t know',No,No,No,No,No,No,No,No
+38|-48,M,Europe,Yes,No,Yes,Often,6-25,No,Yes,No,No,No,No,'Don t know','Very difficult',Maybe,No,'Some of them',No,No,Maybe,No,Yes
+38|-48,M,Europe,No,No,No,Never,26-100,No,No,No,No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Often,'More than 1000',No,Yes,Yes,'Not sure',No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,No,Often,'More than 1000',No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Yes,No,'Some of them','Some of them',No,Maybe,No,Yes
+38|-48,F,Europe,No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',Yes,No,'Some of them','Some of them',No,Maybe,No,Yes
+38|-48,M,'North America',No,No,No,Never,26-100,No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+38|-48,M,'North America',No,Yes,Yes,Often,26-100,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',Yes,No,'Some of them',Yes,No,No,No,No
+38|-48,M,'North America',No,No,Yes,Sometimes,500-1000,No,Yes,Yes,'Not sure',Yes,'Don t know',Yes,'Don t know',Yes,Maybe,Yes,Yes,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,Rarely,'More than 1000',Yes,No,'Don t know',No,Yes,Yes,'Don t know','Don t know',No,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,F,'North America',No,No,No,NA,'More than 1000',Yes,No,No,Yes,No,No,'Don t know','Very difficult',Yes,Maybe,No,No,No,Maybe,No,No
+38|-48,M,Europe,No,No,Yes,Sometimes,100-500,No,Yes,No,No,No,No,'Don t know','Very easy',No,No,No,'Some of them',No,Yes,Yes,No
+38|-48,M,Europe,Yes,No,No,NA,6-25,No,Yes,No,No,Yes,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+38|-48,M,Europe,No,No,Yes,Sometimes,500-1000,No,No,'Don t know',No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Sometimes,100-500,No,No,Yes,Yes,Yes,Yes,Yes,'Very easy',Yes,No,'Some of them',Yes,No,Maybe,No,Yes
+38|-48,M,Europe,No,No,Yes,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them','Some of them',No,Maybe,Yes,No
+38|-48,M,'North America',No,No,No,NA,26-100,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+38|-48,F,'North America',No,No,No,Sometimes,26-100,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Yes,No,No,No,No,Yes,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,500-1000,No,Yes,Yes,Yes,Yes,Yes,Yes,'Very difficult',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'North America',No,No,No,NA,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Very difficult',Maybe,Maybe,'Some of them',Yes,Maybe,Maybe,No,No
+38|-48,M,'North America',No,No,No,NA,'More than 1000',Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,No,Sometimes,'More than 1000',No,Yes,Yes,No,Yes,Yes,'Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,Maybe,Maybe,'Don t know',Yes
+38|-48,M,'North America',No,Yes,Yes,Often,26-100,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Yes,No,'Some of them',No,No,No,No,No
+38|-48,F,Europe,No,Yes,No,Rarely,500-1000,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat difficult',Yes,Yes,No,No,No,No,No,Yes
+38|-48,M,'North America',No,No,Yes,Rarely,100-500,Yes,Yes,Yes,Yes,No,No,Yes,'Very easy',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Yes,Yes,No
+38|-48,M,Europe,Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,Yes,Yes,Yes,'Somewhat difficult',No,No,Yes,Yes,No,Maybe,Yes,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,500-1000,No,Yes,Yes,Yes,No,'Don t know',Yes,'Very easy',No,No,'Some of them',Yes,No,No,Yes,No
+38|-48,F,'North America',No,No,Yes,Sometimes,6-25,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,Maybe,No,No
+38|-48,M,Europe,No,Yes,Yes,Sometimes,'More than 1000',No,No,No,No,No,No,Yes,'Very easy',Maybe,Maybe,'Some of them',Yes,Maybe,Maybe,Yes,No
+38|-48,M,'North America',No,Yes,Yes,Often,26-100,No,No,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Yes,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,Europe,No,No,No,NA,'More than 1000',No,No,Yes,'Not sure',Yes,'Don t know','Don t know','Somewhat easy',Maybe,Maybe,No,'Some of them',No,No,Yes,No
+38|-48,M,Europe,No,No,No,NA,6-25,Yes,Yes,No,No,No,No,Yes,'Don t know',Yes,No,No,No,No,No,'Don t know',No
+38|-48,F,'North America',No,No,Yes,Sometimes,1-5,No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,Yes,No
+38|-48,M,'North America',No,Yes,No,Sometimes,'More than 1000',Yes,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',Yes,Maybe,'Some of them',No,No,No,No,Yes
+38|-48,M,'North America',No,No,Yes,Sometimes,26-100,No,Yes,No,Yes,No,No,Yes,'Very difficult',No,No,Yes,Yes,Yes,Yes,No,No
+38|-48,F,'North America',No,No,No,NA,26-100,No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',Yes,Maybe,No,No,No,Maybe,No,Yes
+38|-48,F,'North America',No,Yes,Yes,Rarely,'More than 1000',No,No,Yes,No,'Don t know','Don t know','Don t know','Somewhat easy',Maybe,Maybe,No,No,No,No,'Don t know',No
+38|-48,Outro,'North America',No,Yes,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,'Don t know',Yes,'Don t know',Yes,Maybe,No,'Some of them',No,Maybe,Yes,No
+38|-48,M,Europe,Yes,Yes,No,NA,'More than 1000',No,Yes,No,No,No,No,No,'Don t know',Yes,Maybe,'Some of them',No,No,Maybe,No,Yes
+38|-48,M,'North America',No,No,No,Never,26-100,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',No,No,'Some of them','Some of them',No,No,No,No
+38|-48,F,'North America',No,No,No,Never,26-100,No,No,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Maybe,Maybe,Yes,Yes,Maybe,Maybe,'Don t know',No
+38|-48,M,Asia,Yes,No,No,Never,6-25,No,Yes,No,No,No,No,Yes,'Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,100-500,No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,No,'Some of them',Yes,No,No,'Don t know',Yes
+38|-48,F,'North America',No,Yes,Yes,Sometimes,100-500,No,No,Yes,'Not sure',Yes,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+38|-48,M,'North America',Yes,No,No,Sometimes,1-5,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Somewhat easy',Yes,Maybe,'Some of them',No,No,No,'Don t know',No
+38|-48,M,'North America',No,No,No,Never,100-500,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+38|-48,M,'North America',No,No,No,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Often,500-1000,Yes,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,Yes,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very difficult',Yes,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Very easy',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,No,Maybe,No,No
+38|-48,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,No,No,Yes,No,No,'Don t know',No
+38|-48,F,'North America',No,Yes,No,Never,100-500,Yes,Yes,Yes,Yes,Yes,No,'Don t know','Don t know',Yes,Yes,No,No,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,No,Sometimes,'More than 1000',Yes,No,Yes,'Not sure',Yes,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them','Some of them',No,Maybe,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',Yes,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',Yes,No,No,No,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',Yes,Yes,No,No,No,Maybe,No,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',Yes,'Don t know','Don t know','Somewhat difficult',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',Yes
+38|-48,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,'Not sure','Don t know','Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,Europe,No,No,Yes,Never,100-500,No,Yes,'Don t know','Not sure',No,'Don t know','Don t know','Very easy',Maybe,No,Yes,'Some of them',No,Maybe,'Don t know',No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,Yes,No,Yes,Yes,'Somewhat easy',No,No,Yes,Yes,No,Maybe,Yes,Yes
+38|-48,M,Asia,Yes,No,No,Sometimes,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat easy',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,'Some of them',No,No,No,Yes,No
+38|-48,M,'North America',No,No,Yes,Never,'More than 1000',No,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Yes,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Often,6-25,Yes,Yes,No,'Not sure',No,No,'Don t know','Very difficult',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,NA,26-100,No,Yes,Yes,'Not sure',No,No,'Don t know','Very easy',Yes,No,No,'Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Rarely,500-1000,Yes,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them',No,Maybe,Maybe,No,No
+38|-48,M,'North America',No,No,Yes,Sometimes,26-100,Yes,Yes,Yes,Yes,'Don t know',No,'Don t know','Very easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+38|-48,M,'North America',No,Yes,Yes,Rarely,100-500,Yes,Yes,Yes,Yes,'Don t know',Yes,Yes,'Somewhat easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+38|-48,M,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,No,Yes,Yes,'Don t know','Somewhat difficult',Maybe,No,Yes,'Some of them',No,Maybe,No,Yes
+38|-48,M,'North America',No,No,Yes,Never,500-1000,No,Yes,Yes,'Not sure',No,'Don t know','Don t know','Somewhat easy',No,No,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,No,'Some of them',Yes,Maybe,Yes,Yes,Yes
+38|-48,F,'North America',No,Yes,Yes,Rarely,500-1000,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',Maybe,Maybe,'Some of them','Some of them',No,No,Yes,No
+38|-48,M,'North America',No,Yes,Yes,Often,'More than 1000',No,Yes,Yes,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',Yes,Yes,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,No,No
+38|-48,M,'North America',No,Yes,No,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+38|-48,M,Europe,No,No,No,NA,26-100,No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,Maybe,'Some of them','Some of them',No,Yes,No,Yes
+38|-48,M,'North America',No,Yes,No,Never,500-1000,Yes,No,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+38|-48,M,'North America',Yes,No,Yes,Often,1-5,Yes,No,No,Yes,Yes,Yes,Yes,'Very difficult',No,No,'Some of them','Some of them',No,No,Yes,Yes
+38|-48,M,'North America',No,No,No,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,No,Yes,Yes
+38|-48,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,Yes,'Don t know',No,No,No,'Don t know','Somewhat difficult',No,No,Yes,Yes,No,No,Yes,No
+38|-48,M,Europe,No,Yes,No,NA,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat difficult',Maybe,Maybe,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+38|-48,F,Europe,Yes,No,Yes,Rarely,1-5,Yes,Yes,'Don t know',Yes,'Don t know',Yes,No,'Somewhat easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,26-100,No,Yes,Yes,No,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,No,'Don t know',No
+38|-48,F,'North America',NA,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,No,No,'Very difficult',Maybe,No,Yes,Yes,No,Maybe,No,No
+38|-48,F,'North America',NA,Yes,Yes,Sometimes,26-100,No,No,Yes,Yes,No,No,'Don t know','Somewhat difficult',Yes,Yes,Yes,Yes,Maybe,Maybe,No,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,26-100,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',Maybe,No,'Some of them','Some of them',Maybe,Yes,'Don t know',No
+38|-48,M,'North America',No,No,No,NA,6-25,No,Yes,No,Yes,No,No,'Don t know','Very difficult',Maybe,No,Yes,Yes,No,Maybe,No,No
+38|-48,M,'North America',No,No,No,Never,6-25,Yes,Yes,No,Yes,No,Yes,'Don t know','Somewhat easy',No,No,'Some of them',Yes,No,No,Yes,No
+38|-48,M,Oceania,No,No,No,Never,500-1000,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+38|-48,F,Europe,No,No,Yes,Rarely,100-500,Yes,Yes,Yes,Yes,No,No,Yes,'Don t know',Yes,No,'Some of them',No,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,Never,100-500,No,No,Yes,No,Yes,No,'Don t know','Very difficult',Maybe,No,Yes,Yes,Maybe,Yes,No,No
+38|-48,M,'North America',No,No,Yes,Often,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,Yes,Yes,Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',Yes,No,No,Rarely,6-25,Yes,No,No,Yes,No,No,'Don t know','Very easy',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+38|-48,M,Europe,No,No,No,NA,'More than 1000',Yes,Yes,'Don t know','Not sure',Yes,Yes,Yes,'Very easy',No,No,'Some of them',No,No,Maybe,Yes,No
+38|-48,M,'North America',No,No,Yes,Sometimes,1-5,Yes,Yes,No,Yes,No,No,'Don t know','Somewhat easy',Maybe,No,No,No,No,Maybe,'Don t know',No
+38|-48,M,'North America',Yes,Yes,No,Sometimes,6-25,Yes,No,Yes,'Not sure','Don t know',Yes,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+38|-48,M,Oceania,No,No,Yes,Sometimes,'More than 1000',No,No,No,Yes,'Don t know',No,Yes,'Somewhat difficult',Yes,Maybe,'Some of them','Some of them',No,Yes,No,Yes
+38|-48,M,'North America',No,No,Yes,Often,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,No,No,Rarely,'More than 1000',No,No,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,No,No
+38|-48,F,'North America',No,Yes,Yes,Sometimes,26-100,No,No,Yes,Yes,No,No,'Don t know','Don t know',Yes,No,'Some of them','Some of them',No,Yes,No,No
+38|-48,M,Europe,No,No,No,Never,26-100,No,Yes,No,Yes,No,No,No,'Somewhat difficult',Yes,Yes,'Some of them','Some of them',No,No,No,No
+38|-48,M,'North America',No,Yes,Yes,Often,'More than 1000',Yes,Yes,Yes,'Not sure',No,'Don t know','Don t know','Very difficult',Yes,Maybe,No,No,No,No,No,No
+38|-48,M,'North America',Yes,No,No,NA,6-25,Yes,Yes,No,'Not sure',No,No,'Don t know','Somewhat easy',Maybe,No,Yes,Yes,Yes,Yes,'Don t know',No
+38|-48,M,'North America',Yes,Yes,Yes,Often,6-25,Yes,Yes,Yes,Yes,No,No,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,Yes,No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Yes,Maybe,No,No,No,Yes,'Don t know',No
+38|-48,M,Europe,No,No,Yes,Sometimes,26-100,No,No,No,Yes,'Don t know',No,'Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Yes,No,Yes
+38|-48,M,'North America',No,No,No,NA,6-25,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,'Some of them',No,No,No,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Sometimes,6-25,No,Yes,No,Yes,No,No,'Don t know','Somewhat easy',No,No,Yes,Yes,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,NA,500-1000,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,Yes,Yes,No,No,Yes,No
+38|-48,M,Europe,No,No,No,NA,100-500,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,26-100,No,No,Yes,'Not sure',No,Yes,'Don t know','Somewhat easy',Yes,No,No,No,No,No,No,No
+38|-48,M,Europe,Yes,No,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,Yes,'Very difficult',Yes,No,Yes,No,No,Maybe,No,Yes
+38|-48,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,Yes,'Don t know',Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,Sometimes,6-25,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,No,No
+38|-48,M,Europe,No,No,Yes,Never,26-100,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,Yes,Yes,Yes,Yes,'Don t know',No
+38|-48,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,No,Yes,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+38|-48,M,Europe,No,Yes,No,NA,'More than 1000',No,No,'Don t know',No,No,No,'Don t know','Very easy',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,No,'Don t know',No,No,'Don t know','Don t know','Very difficult',Maybe,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'South America',Yes,No,No,NA,'More than 1000',Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+38|-48,M,Europe,No,Yes,Yes,Rarely,26-100,No,Yes,No,No,No,No,'Don t know','Very difficult',Yes,Yes,'Some of them',No,No,No,No,Yes
+38|-48,M,'North America',No,Yes,No,Sometimes,500-1000,No,No,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,No,No
+38|-48,M,'North America',No,No,Yes,Sometimes,100-500,Yes,Yes,Yes,Yes,No,Yes,Yes,'Very difficult',Yes,Maybe,'Some of them',No,No,Maybe,No,Yes
+38|-48,M,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',No,No,Yes,Yes,Maybe,Yes,Yes,No
+38|-48,M,'North America',No,No,No,Sometimes,'More than 1000',Yes,Yes,No,'Not sure',No,No,'Don t know','Very difficult',Yes,Maybe,No,No,No,Maybe,No,Yes
+38|-48,M,'North America',No,No,No,Sometimes,'More than 1000',Yes,Yes,Yes,'Not sure',No,Yes,'Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+38|-48,M,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,Yes,'Not sure',No,'Don t know','Don t know','Don t know',Maybe,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,'North America',No,Yes,No,Never,100-500,No,No,Yes,Yes,No,'Don t know','Don t know','Somewhat easy',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+38|-48,M,'North America',No,No,No,Never,500-1000,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,Yes,'Some of them',No,No,Yes,No
+38|-48,F,'North America',No,Yes,Yes,Rarely,'More than 1000',Yes,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',No,No,'Some of them',Yes,No,No,'Don t know',No
+38|-48,M,'North America',NA,No,No,Rarely,'More than 1000',No,No,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',Maybe,No,No,No,No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,No,Yes,No,No,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them',No,No,Maybe,'Don t know',Yes
+38|-48,F,'North America',No,No,No,Never,100-500,No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,No,'Some of them',No,No,'Don t know',No
+38|-48,M,'North America',Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,No,No,No,'Very easy',Yes,Yes,'Some of them',No,No,No,Yes,No
+38|-48,M,Europe,No,Yes,Yes,Sometimes,500-1000,No,No,'Don t know',No,No,No,'Don t know','Somewhat difficult',Maybe,No,'Some of them',Yes,No,Maybe,No,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat difficult',Maybe,Maybe,'Some of them',Yes,No,Maybe,No,No
+38|-48,F,'North America',No,No,No,NA,100-500,No,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,No,No,No,No,No,'Don t know',No
+38|-48,M,'North America',No,No,No,NA,'More than 1000',Yes,No,'Don t know',No,'Don t know','Don t know',Yes,'Don t know',Yes,No,'Some of them',No,No,No,No,No
+38|-48,M,'North America',Yes,No,No,Never,1-5,Yes,Yes,'Don t know',No,No,No,Yes,'Somewhat difficult',No,No,No,No,No,No,'Don t know',No
+38|-48,M,Europe,No,No,Yes,Sometimes,'More than 1000',No,No,No,No,No,Yes,'Don t know','Don t know',Maybe,No,'Some of them','Some of them',No,No,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,Yes,No,Yes,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Rarely,6-25,Yes,Yes,Yes,Yes,No,Yes,Yes,'Very easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+38|-48,F,'North America',No,No,Yes,Sometimes,1-5,No,Yes,Yes,No,No,No,Yes,'Somewhat difficult',No,No,Yes,Yes,No,No,Yes,No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Yes,Yes,'Some of them','Some of them',No,No,'Don t know',No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,'Don t know','Don t know',Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,Europe,Yes,No,Yes,Often,1-5,No,Yes,No,No,No,No,'Don t know','Very difficult',No,No,No,No,No,No,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Never,26-100,Yes,Yes,Yes,Yes,'Don t know','Don t know','Don t know','Don t know',Maybe,No,No,'Some of them',No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Often,1-5,Yes,Yes,Yes,'Not sure',No,Yes,'Don t know','Very easy',No,No,Yes,Yes,No,Maybe,Yes,No
+38|-48,M,'North America',No,No,No,NA,'More than 1000',No,No,Yes,Yes,Yes,Yes,'Don t know','Don t know',No,No,'Some of them','Some of them',No,No,Yes,No
+38|-48,M,Europe,No,Yes,No,Rarely,100-500,No,No,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,No,Never,6-25,Yes,Yes,Yes,No,No,No,'Don t know','Don t know',Yes,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+38|-48,F,'North America',No,No,Yes,Rarely,26-100,No,No,'Don t know',No,'Don t know','Don t know','Don t know','Don t know',No,No,'Some of them','Some of them',No,Maybe,'Don t know',No
+38|-48,M,Europe,No,No,No,Never,'More than 1000',Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Don t know',Yes,No,Yes,'Some of them',No,No,No,Yes
+38|-48,M,'North America',Yes,Yes,No,Sometimes,1-5,Yes,Yes,Yes,'Not sure',Yes,'Don t know',Yes,'Very easy',No,No,Yes,Yes,No,Yes,Yes,Yes
+38|-48,M,'North America',No,No,Yes,Often,26-100,Yes,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,No,No
+38|-48,M,'North America',No,No,No,Never,26-100,No,Yes,Yes,'Not sure',Yes,'Don t know','Don t know','Very easy',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+38|-48,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,Yes,No
+38|-48,M,'North America',No,No,Yes,Rarely,500-1000,Yes,Yes,Yes,'Not sure',Yes,Yes,Yes,'Don t know',No,No,'Some of them',Yes,No,Maybe,Yes,No
+38|-48,M,'North America',No,No,Yes,Rarely,'More than 1000',No,No,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Yes,Maybe,No,No,No,Maybe,Yes,No
+38|-48,F,'North America',No,No,Yes,Often,'More than 1000',No,No,Yes,Yes,Yes,Yes,'Don t know','Don t know',Yes,No,'Some of them','Some of them',No,No,No,Yes
+38|-48,M,'North America',No,Yes,Yes,Sometimes,6-25,No,Yes,'Don t know',Yes,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,'Some of them',No,Maybe,'Don t know',No
+38|-48,F,'North America',No,No,Yes,Often,100-500,Yes,No,Yes,Yes,No,No,Yes,'Don t know',Maybe,No,'Some of them','Some of them',No,Maybe,No,No
+38|-48,M,'North America',No,Yes,Yes,Often,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,No,'Some of them',No,No,No,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,100-500,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Yes,Yes,'Don t know',No
+38|-48,F,'North America',No,No,No,NA,100-500,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',Yes,No,No,No,No,No,No,No
+38|-48,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,'Don t know','Very easy',No,No,'Some of them',Yes,No,Yes,Yes,No
+38|-48,F,'North America',No,No,No,NA,100-500,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Very difficult',Yes,Yes,No,No,No,No,No,No
+48|-58,M,Europe,No,No,No,NA,26-100,No,Yes,'Don t know',No,No,No,'Don t know','Don t know',Maybe,Maybe,No,No,No,No,No,No
+48|-58,M,'North America',No,No,No,Never,6-25,No,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Maybe,No,No,No,No,Maybe,'Don t know',No
+48|-58,F,'North America',No,Yes,No,Often,26-100,No,Yes,'Don t know',No,No,No,No,'Very difficult',Yes,Yes,No,'Some of them',No,No,No,Yes
+48|-58,M,'North America',No,No,Yes,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,Maybe,Yes,Yes,No,Maybe,Yes,Yes
+48|-58,M,Australia,No,No,Yes,Sometimes,6-25,No,Yes,No,No,No,No,'Don t know','Somewhat easy',Yes,No,'Some of them',No,No,Maybe,No,Yes
+48|-58,M,'North America',No,No,No,Never,26-100,No,No,Yes,Yes,Yes,Yes,Yes,'Don t know',Maybe,No,'Some of them',Yes,No,Maybe,'Don t know',No
+48|-58,M,Asia,Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,Yes,No,'Don t know','Somewhat difficult',Yes,Yes,No,No,No,No,No,Yes
+48|-58,M,'North America',No,Yes,Yes,Sometimes,100-500,No,Yes,Yes,'Not sure',Yes,Yes,Yes,'Somewhat easy',Maybe,Maybe,'Some of them',Yes,No,No,Yes,No
+48|-58,M,'North America',No,Yes,Yes,Sometimes,'More than 1000',No,Yes,Yes,Yes,No,Yes,Yes,'Somewhat difficult',Yes,Maybe,No,No,No,Maybe,No,Yes
+48|-58,M,'North America',No,Yes,No,Never,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Don t know',No,No,Yes,Yes,No,No,Yes,No
+48|-58,M,'North America',No,No,No,NA,100-500,No,Yes,Yes,Yes,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,No,Maybe,'Don t know',No
+48|-58,M,'North America',No,No,No,Never,26-100,Yes,Yes,No,Yes,No,No,'Don t know','Don t know',No,No,No,No,No,Maybe,No,No
+48|-58,M,'North America',No,Yes,No,NA,100-500,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,'Don t know',No
+48|-58,M,'North America',No,No,No,Sometimes,1-5,Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,Maybe,'Some of them','Some of them',No,Maybe,'Don t know',No
+48|-58,M,'North America',Yes,No,No,Never,1-5,Yes,Yes,No,Yes,No,No,Yes,'Somewhat easy',No,No,'Some of them',Yes,No,Maybe,Yes,No
+48|-58,M,Europe,Yes,No,Yes,Sometimes,26-100,Yes,Yes,No,No,No,No,'Don t know','Don t know',Maybe,Maybe,'Some of them',Yes,No,No,'Don t know',No
+48|-58,M,Oceania,No,No,Yes,Sometimes,26-100,Yes,Yes,No,Yes,Yes,No,No,'Somewhat difficult',Yes,Yes,No,No,No,No,'Don t know',Yes
+48|-58,M,'North America',No,No,No,Never,'More than 1000',Yes,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+48|-58,M,'North America',No,No,No,NA,100-500,No,No,'Don t know','Not sure',No,'Don t know','Don t know','Somewhat difficult',No,No,'Some of them',Yes,No,No,'Don t know',No
+48|-58,M,'North America',Yes,No,No,Never,1-5,No,Yes,No,Yes,No,No,Yes,'Somewhat difficult',No,No,'Some of them','Some of them',Maybe,Maybe,'Don t know',No
+48|-58,M,Asia,No,No,No,Never,'More than 1000',Yes,Yes,'Don t know',No,No,'Don t know','Don t know','Don t know',Yes,No,No,No,No,No,No,No
+48|-58,M,'North America',No,No,Yes,Rarely,6-25,Yes,Yes,Yes,Yes,No,Yes,'Don t know','Don t know',Maybe,Maybe,'Some of them',No,No,No,'Don t know',No
+48|-58,M,'North America',No,Yes,Yes,Never,'More than 1000',No,Yes,'Don t know',No,Yes,Yes,'Don t know','Don t know',No,No,No,Yes,No,No,'Don t know',No
+48|-58,M,Europe,No,No,Yes,Sometimes,'More than 1000',Yes,No,No,Yes,Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,Maybe,Maybe,No,No
+48|-58,M,Europe,Yes,Yes,Yes,Sometimes,1-5,Yes,Yes,'Don t know','Not sure',No,No,'Don t know','Very easy',No,No,'Some of them',Yes,Yes,Yes,'Don t know',Yes
+48|-58,M,'North America',No,Yes,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Very easy',No,No,Yes,Yes,No,No,Yes,No
+48|-58,M,'North America',No,Yes,Yes,Sometimes,1-5,Yes,Yes,No,Yes,No,'Don t know','Don t know','Don t know',Yes,Maybe,No,No,No,No,No,Yes
+48|-58,M,Europe,No,No,Yes,Often,'More than 1000',No,No,Yes,Yes,Yes,Yes,'Don t know','Somewhat easy',Yes,Maybe,No,'Some of them',No,Maybe,No,Yes
+48|-58,M,'North America',No,No,Yes,Never,'More than 1000',No,Yes,Yes,'Not sure','Don t know','Don t know','Don t know','Don t know',No,Maybe,Yes,'Some of them',No,Maybe,'Don t know',No
+48|-58,M,'North America',No,Yes,Yes,Rarely,6-25,No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Yes,Maybe,'Some of them','Some of them',No,No,'Don t know',No
+48|-58,M,'North America',No,No,Yes,Rarely,'More than 1000',Yes,Yes,Yes,Yes,'Don t know',Yes,Yes,'Somewhat easy',No,No,Yes,Yes,Yes,Yes,Yes,No
+48|-58,F,'North America',Yes,No,No,Rarely,1-5,Yes,Yes,'Don t know','Not sure','Don t know','Don t know','Don t know','Don t know',Maybe,Maybe,No,No,No,No,'Don t know',No
+48|-58,M,'North America',No,Yes,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,No,No,'Don t know','Don t know',Maybe,No,'Some of them',Yes,No,Maybe,No,No
+48|-58,M,'North America',No,No,Yes,Sometimes,'More than 1000',No,Yes,Yes,'Not sure',Yes,Yes,'Don t know','Don t know',Maybe,Maybe,No,No,No,Maybe,'Don t know',No
+48|-58,M,'North America',No,No,No,Never,26-100,No,Yes,Yes,Yes,No,Yes,Yes,'Somewhat difficult',Yes,Maybe,No,No,No,Maybe,'Don t know',Yes
+58|-72|,M,'North America',No,No,Yes,Rarely,'More than 1000',No,Yes,Yes,Yes,Yes,Yes,Yes,'Somewhat easy',Maybe,No,'Some of them',Yes,No,Yes,Yes,No
+58|-72|,M,'North America',No,No,No,NA,'More than 1000',No,Yes,Yes,No,'Don t know',Yes,'Don t know','Don t know',No,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+58|-72|,M,'North America',No,No,Yes,Often,'More than 1000',Yes,Yes,'Don t know',No,Yes,'Don t know','Don t know','Somewhat easy',Maybe,Maybe,'Some of them',No,No,Maybe,'Don t know',No
+58|-72|,M,Africa,Yes,No,Yes,Sometimes,1-5,Yes,Yes,No,No,No,No,'Don t know','Very difficult',Yes,Maybe,'Some of them',Yes,No,Maybe,No,Yes
+58|-72|,M,'North America',No,No,No,Never,'More than 1000',No,Yes,Yes,Yes,'Don t know',Yes,'Don t know','Don t know',Maybe,No,'Some of them',Yes,Maybe,Maybe,Yes,No
+58|-72|,M,'North America',Yes,No,No,NA,6-25,Yes,No,No,No,No,No,'Don t know','Very easy',Maybe,No,'Some of them',No,No,No,Yes,No
+58|-72|,F,'North America',No,Yes,Yes,Never,500-1000,Yes,No,Yes,'Not sure','Don t know',Yes,'Don t know','Somewhat easy',Maybe,Maybe,'Some of them',Yes,No,No,'Don t know',Yes
